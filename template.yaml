@@ -1,0 +1,70 @@
+#Transform 과 Resources 외에는 옵셔널이다!
+AWSTemplateFormatVersion: 2010-09-09
+
+# 템플릿 설명 외에 Metadata도 있다.
+Description: >-
+  sam-app
+
+# AWS CloudFormation에서 사용하는 매크로 정의
+# 해당 예시값은 ㅂ나드시 포함
+Transform:
+  - AWS::Serverless-2016-10-31
+
+#Resources에 정의된 리소스들이 사용하는 공통적인 프로퍼티
+Globals:
+  Function:
+    Tracing: Active
+    Timeout: 10
+    Runtime: nodejs16.x
+    Architectures:
+      - x86_64
+    MemorySize: 128
+
+# AWS CloudFormation과 AWS SAM의 리소스들이 들어감.
+# AWS CloudFormation에는 모든 AWS의 리소스를 사용할 수 있는 것 같고
+# AWS SAM은 서버리스에 필요한 필수적인 몇가지만 정의 되어있는듯함
+# AWS SAM은 둘다 포함할 수 있다고
+Resources:
+  ApiGateway:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      DefinitionUri: ./openapi.yaml
+  CoreLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: core-layer
+      ContentUri: layers/coreLayer/
+      CompatibleRuntimes:
+        - nodejs16.x
+    Metadata:
+      BuildMethod: nodejs16.x
+  GetSchoolFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/handlers/
+      Handler: get-school.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        PostPetApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref "ApiGateway"
+            Path: /school
+            Method: get
+#Paramters 섹션도 있다.
+# Resources나 Outputs에서 참조할 수 있다고...
+# `sam deploy`시 --parameter-overrides를 쓰면...
+
+#Mapping 섹션은 컨디셔널 파라미터를 정의할 때 쓰인다고 한다.
+
+#Condtions 섹션은 스택이 생성되거나 업데이트되는 중에
+#특정 리소스가 만들어졌는지 여부나 특정 리소스 프로퍼티가 특정 값을 가지고 있는지 여부를 컨트롤 한다.
+#스택이 프로덕션인지 테스트 환경인지에 따라 특정 리소스를 안 만들 수도 있다.
+
+#스택 프로퍼티를 볼 때 반환 되는 값
+Outputs:
+  WebEndpoint:
+    Description: "API Gateway endpoint URL for Prod stage"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"

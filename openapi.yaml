@@ -1,0 +1,770 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Aco API
+  description: Vocabulary Test Management System Aco API
+tags:
+  - name: student
+  - name: student/report
+  - name: vocabook
+  - name: school
+paths:
+  /student:
+    get:
+      tags:
+        - student
+      description: return students
+      summary: return students
+      parameters:
+        - $ref: "#/components/parameters/LimitParam"
+        - $ref: "#/components/parameters/LastIdParam"
+        - $ref: "#/components/parameters/SortByParam"
+        - $ref: "#/components/parameters/AscendParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetStudentResponse"
+    post:
+      tags:
+        - student
+      description: add a new student
+      summary: add a new student
+      requestBody:
+        $ref: "#/components/requestBodies/PostStudentRequestBody"
+      responses:
+        "201":
+          $ref: "#/components/responses/PostStudentResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "409":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /student/{id}:
+    get:
+      tags:
+        - student
+      description: return a student
+      summary: return a student
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetStudentByIdResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    put:
+      tags:
+        - student
+      description: update a student
+      summary: update a student
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      requestBody:
+        $ref: "#/components/requestBodies/PutStudentRequestBody"
+      responses:
+        "204":
+          $ref: "#/components/responses/PutStudentResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    delete:
+      tags:
+        - student
+      description: delete a student
+      summary: delete a student
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "204":
+          description: success
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /student/query:
+    post:
+      tags:
+        - student
+      description: query students
+      summary: query students
+      requestBody:
+        $ref: "#/components/requestBodies/PostStudentQueryRequestBody"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetStudentResponse"
+  /student/{id}/report:
+    get:
+      tags:
+        - student/report
+      description: return student's resports
+      summary: return student's resports
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+        - $ref: "#/components/parameters/LimitParam"
+        - $ref: "#/components/parameters/LastIdParam"
+        - $ref: "#/components/parameters/SortByParam"
+        - $ref: "#/components/parameters/AscendParam"
+        - $ref: "#/components/parameters/FullParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetStudentReportResponse"
+    post:
+      tags:
+        - student/report
+      description: add a new student's report
+      summary: add a new student's report
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      requestBody:
+        $ref: "#/components/requestBodies/PostStudentReportRequestBody"
+      responses:
+        "201":
+          $ref: "#/components/responses/PostStudentReportResponseBody"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "409":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /student/report/{id}:
+    get:
+      tags:
+        - student/report
+      description: return a student's report
+      summary: return a student's report
+      parameters:
+        - $ref: "#/components/parameters/StudentReportIdParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetStudentReportByIdResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    put:
+      tags:
+        - student/report
+      description: update a student's report
+      summary: update a student's report
+      parameters:
+        - $ref: "#/components/parameters/StudentReportIdParam"
+      requestBody:
+        $ref: "#/components/requestBodies/PutStudentReportRequestBody"
+      responses:
+        "204":
+          $ref: "#/components/responses/PutStudentResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    delete:
+      tags:
+        - student/report
+      description: delete a student's report
+      summary: delete a student's report
+      parameters:
+        - $ref: "#/components/parameters/StudentReportIdParam"
+      responses:
+        "204":
+          description: success
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /vocabook:
+    get:
+      tags:
+        - vocabook
+      description: return vocabooks
+      summary: return vocabooks
+      parameters:
+        - $ref: "#/components/parameters/LimitParam"
+        - $ref: "#/components/parameters/LastIdParam"
+        - $ref: "#/components/parameters/SortByParam"
+        - $ref: "#/components/parameters/AscendParam"
+        - $ref: "#/components/parameters/FullParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetVocaBookResponse"
+    post:
+      tags:
+        - vocabook
+      description: add a new vocabook
+      summary: add a new vocabook
+      requestBody:
+        $ref: "#/components/requestBodies/PostVocaBookRequestBody"
+      responses:
+        "201":
+          $ref: "#/components/responses/PostVocaBookResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "409":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /vocabook/{id}:
+    get:
+      tags:
+        - vocabook
+      description: return a vocabook
+      summary: return a vocabook
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetVocaBookByIdResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    put:
+      tags:
+        - vocabook
+      description: update a vocabook
+      summary: update a vocabook
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      requestBody:
+        $ref: "#/components/requestBodies/PutVocaBookRequestBody"
+      responses:
+        "204":
+          $ref: "#/components/responses/PutVocaBookResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    delete:
+      tags:
+        - vocabook
+      description: delete a vocabook
+      summary: delete a vocabook
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "204":
+          description: success
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /vocabook/{id}/file:
+    get:
+      tags:
+        - vocabook
+      description: download a vocabook file(csv)
+      summary: download a vocabook file(csv)
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetVocaBookFileByIdResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /school:
+    get:
+      tags:
+        - school
+      description: return schools
+      summary: return schools
+      parameters:
+        - $ref: "#/components/parameters/LimitParam"
+        - $ref: "#/components/parameters/LastIdParam"
+        - $ref: "#/components/parameters/SortByParam"
+        - $ref: "#/components/parameters/AscendParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetSchoolResponse"
+    post:
+      tags:
+        - school
+      description: add a new school
+      summary: add a new school
+      requestBody:
+        $ref: "#/components/requestBodies/PostSchoolRequestBody"
+      responses:
+        "201":
+          $ref: "#/components/responses/PostSchoolResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "409":
+          $ref: "#/components/responses/DefaultErrorResponse"
+  /school/{id}:
+    get:
+      tags:
+        - school
+      description: return a school
+      summary: return a school
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetSchoolByIdResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    put:
+      tags:
+        - school
+      description: update a school
+      summary: update a school
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      requestBody:
+        $ref: "#/components/requestBodies/PutSchoolRequestBody"
+      responses:
+        "204":
+          $ref: "#/components/responses/PutSchoolResponse"
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+    delete:
+      tags:
+        - school
+      description: delete a school
+      summary: delete a school
+      parameters:
+        - $ref: "#/components/parameters/IdParam"
+      responses:
+        "204":
+          description: success
+        "400":
+          $ref: "#/components/responses/DefaultErrorResponse"
+        "404":
+          $ref: "#/components/responses/DefaultErrorResponse"
+components:
+  parameters:
+    IdParam:
+      in: path
+      name: id
+      required: true
+      schema:
+        $ref: "#/components/schemas/IdParamValue"
+    LimitParam:
+      in: query
+      name: limit
+      schema:
+        $ref: "#/components/schemas/LimitParamValue"
+      description: item's count to read
+    LastIdParam:
+      in: query
+      name: lastId
+      schema:
+        $ref: "#/components/schemas/LastIdParamValue"
+      description: last Id read(Keyset Pagination)
+    SortByParam:
+      in: query
+      name: sortBy
+      schema:
+        $ref: "#/components/schemas/SortByParamValue"
+      description: sort criterion property
+    AscendParam:
+      in: query
+      name: ascend
+      schema:
+        $ref: "#/components/schemas/AscendParamValue"
+      description: sort order
+    FullParam:
+      in: query
+      name: full
+      schema:
+        $ref: "#/components/schemas/FullParamValue"
+      description: determine whether to get full attributes of the object
+    StudentReportIdParam:
+      in: path
+      name: id
+      required: true
+      schema:
+        $ref: "#/components/schemas/StudentReportIdParamValue"
+      style: matrix
+      explode: true
+  requestBodies:
+    PostStudentRequestBody:
+      description: POST - /student request body
+      required: true
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: "#/components/schemas/Student"
+              - type: object
+                required:
+                  - name
+                  - school
+                  - grade
+    PutStudentRequestBody:
+      description: PUT - /student/{id} request body
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Student"
+    PostStudentQueryRequestBody:
+      description: POST - /stduent/query request body
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/QueryStudentBody"
+    PostStudentReportRequestBody:
+      description: POST - /student/{id}/report request body
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/StudentReport"
+    PutStudentReportRequestBody:
+      description: PUT - /student/report/{;id*} request body
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/StudentReport"
+    PostVocaBookRequestBody:
+      description: POST - /vocabook/{id} request body
+      required: true
+      content:
+        multipart/form-data:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              vocakBookFile:
+                type: array
+                items:
+                  type: string
+                  format: binary
+          encoding:
+            profileImage:
+              contentType: text/csv
+    PutVocaBookRequestBody:
+      description: PUT - /vocabook/{id} request body
+      required: true
+      content:
+        multipart/form-data:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              vocakBookFile:
+                type: array
+                items:
+                  type: string
+                  format: binary
+          encoding:
+            profileImage:
+              contentType: text/csv
+    PostSchoolRequestBody:
+      description: POST - /school request body
+      required: true
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: "#/components/schemas/School"
+              - type: object
+                required:
+                  - name
+    PutSchoolRequestBody:
+      description: PUT - /school/{id} request body
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Student"
+  responses:
+    DefaultErrorResponse:
+      description: default response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+    GetStudentResponse:
+      description: GET[POST] - /student[/query] response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "#/components/schemas/StudentWithId"
+    PostStudentResponse:
+      description: POST - /student response
+      headers:
+        Content-Location:
+          description: an added resource's path(/student/{id})
+          schema:
+            type: string
+    GetStudentByIdResponse:
+      description: GET - /student/{id} response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                $ref: "#/components/schemas/StudentWithId"
+    PutStudentResponse:
+      description: PUT - /student/{id} response
+      headers:
+        Content-Location:
+          description: an updated resource's path(/student/{id})
+          schema:
+            type: string
+    GetStudentReportResponse:
+      description: GET - /student/{id}/reportlist response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "#/components/schemas/StudentReportWithId"
+    PostStudentReportResponseBody:
+      description: POST - /student/{id}/report response body
+      headers:
+        Content-Location:
+          description: an added resource's path(/student/{id})
+          schema:
+            type: string
+    GetStudentReportByIdResponse:
+      description: GET - /student/{id}/reportlist/{id} response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                $ref: "#/components/schemas/StudentReportWithId"
+    PutStudentReportResponse:
+      description: POST - /student/report/{;id*} response
+      headers:
+        Content-Location:
+          description: an updated resource's path(/student/report/{;id*})
+          schema:
+            type: string
+    GetVocaBookResponse:
+      description: GET - /vocabook response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "#/components/schemas/VocaBookWithId"
+    PostVocaBookResponse:
+      description: POST - /vocabook response body
+      headers:
+        Content-Location:
+          description: an added resource's path(/vocabook/{id})
+          schema:
+            type: string
+    GetVocaBookByIdResponse:
+      description: GET - /vocabook/{id} response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                $ref: "#/components/schemas/VocaBookWithId"
+    PutVocaBookResponse:
+      description: PUT - /vocabook response body
+      headers:
+        Content-Location:
+          description: an updated resource's path(/vocabook/{id})
+          schema:
+            type: string
+    GetVocaBookFileByIdResponse:
+      description: GET - /vocabook/{id}/file response
+      headers:
+        Content-Disposition:
+          description: (attachment; filename="mynotepad.zip")
+          schema:
+            type: string
+        Content-Length:
+          description: file size(bytes)
+          schema:
+            type: string
+      content:
+        "application/octet-stream":
+          schema:
+            type: string
+            format: binary
+    GetSchoolResponse:
+      description: GET - /school response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SchoolWithId"
+    PostSchoolResponse:
+      description: POST - /school response
+      headers:
+        Content-Location:
+          description: an added resource's path(/student/{id})
+          schema:
+            type: string
+    GetSchoolByIdResponse:
+      description: GET - /school/{id} response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                $ref: "#/components/schemas/SchoolWithId"
+    PutSchoolResponse:
+      description: PUT - /school/{id} response
+      headers:
+        Content-Location:
+          description: an updated resource's path(/school/{id})
+          schema:
+            type: string
+  schemas:
+    IdParamValue:
+      type: string
+    StudentReportIdParamValue:
+      type: object
+      properties:
+        studentId:
+          type: string
+        reportId:
+          type: string
+    LimitParamValue:
+      type: integer
+      minimum: 1
+      default: 1
+      description: item's count to read
+    LastIdParamValue:
+      type: string
+      description: last Id read(Keyset Pagination)
+    SortByParamValue:
+      type: array
+      items:
+        type: string
+      description: sort criterion property
+    AscendParamValue:
+      type: integer
+      enum: [1, -1]
+      default: 1
+      description: sort order(1 - asc, -1 - desc)
+    FullParamValue:
+      type: boolean
+      default: false
+      description: determine whether to get full attributes of the object
+    WithId:
+      type: object
+      required:
+        - id
+      properties:
+        id:
+          type: string
+    QueryParamBody:
+      type: object
+      properties:
+        id:
+          $ref: "#/components/schemas/IdParamValue"
+        limit:
+          $ref: "#/components/schemas/LimitParamValue"
+        lastId:
+          $ref: "#/components/schemas/LastIdParamValue"
+        sortBy:
+          $ref: "#/components/schemas/SortByParamValue"
+        ascend:
+          $ref: "#/components/schemas/AscendParamValue"
+    Student:
+      type: object
+      properties:
+        name:
+          type: string
+        school:
+          type: string
+        grade:
+          type: integer
+          minimum: 1
+          maximum: 3
+        retired:
+          type: boolean
+          default: false
+    StudentWithId:
+      allOf:
+        - $ref: "#/components/schemas/WithId"
+        - $ref: "#/components/schemas/Student"
+    QueryStudentBody:
+      allOf:
+        - $ref: "#/components/schemas/QueryParamBody"
+        - $ref: "#/components/schemas/Student"
+    StudentReport:
+      type: object
+      properties:
+        test:
+          type: object
+          properties:
+            spell:
+              type: string
+            choices:
+              type: string
+            meaning:
+              type: string
+            source:
+              type: string
+            chapter:
+              type: string
+            answer:
+              type: string
+        testItemCount:
+          type: integer
+        answerCount:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+    StudentReportWithId:
+      allOf:
+        - $ref: "#/components/schemas/WithId"
+        - $ref: "#/components/schemas/StudentReport"
+    VocaBook:
+      type: object
+      properties:
+        name:
+          type: string
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              chapter:
+                type: string
+              spell:
+                type: string
+              meaning:
+                type: string
+    VocaBookWithId:
+      allOf:
+        - $ref: "#/components/schemas/WithId"
+        - $ref: "#/components/schemas/VocaBook"
+    School:
+      type: object
+      properties:
+        name:
+          type: string
+    SchoolWithId:
+      allOf:
+        - $ref: "#/components/schemas/WithId"
+        - $ref: "#/components/schemas/School"
