@@ -1,0 +1,60 @@
+{
+  "result": {
+    "KeySchema": [
+      {
+        "AttributeName": "PK",
+        "KeyType": "HASH"
+      },
+      {
+        "AttributeName": "SK",
+        "KeyType": "RANGE"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "PK",
+        "AttributeType": "S"
+      },
+      {
+        "AttributeName": "SK",
+        "AttributeType": "S"
+      },
+      {
+        "AttributeName": "StudentIndexKey",
+        "AttributeType": "S"
+      },
+      {
+        "AttributeName": "ItemIndexKey",
+        "AttributeType": "S"
+      }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 1,
+      "WriteCapacityUnits": 1
+    },
+    "TableName": "Aco",
+    "StreamSpecification": {
+      "StreamEnabled": false
+    },
+    "GlobalSecondaryIndexes": [
+      {
+        "IndexName": "StudentIndexKey-ItemIndexKey-Index",
+        "KeySchema": [
+          {
+            "AttributeName": "StudentIndexKey",
+            "KeyType": "HASH"
+          },
+          {
+            "AttributeName": "ItemIndexKey",
+            "KeyType": "RANGE"
+          }
+        ],
+        "Projection": { "ProjectionType": "ALL" },
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 1,
+          "WriteCapacityUnits": 1
+        }
+      }
+    ]
+  }
+}

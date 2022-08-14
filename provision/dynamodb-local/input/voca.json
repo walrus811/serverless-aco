@@ -1,0 +1,7259 @@
+{
+  "result": [
+    {
+      "spell": "tradition",
+      "meaning": "전통",
+      "chapter": "1과"
+    },
+    {
+      "spell": "religious",
+      "meaning": "종교의",
+      "chapter": "2과"
+    },
+    {
+      "spell": "intellect",
+      "meaning": "지력",
+      "chapter": "4과"
+    },
+    {
+      "spell": "culture",
+      "meaning": "문화",
+      "chapter": "3과"
+    },
+    {
+      "spell": "civilization",
+      "meaning": "문명",
+      "chapter": "2과"
+    },
+    {
+      "spell": "prejudice",
+      "meaning": "편견",
+      "chapter": "4과"
+    },
+    {
+      "spell": "instinct",
+      "meaning": "본능",
+      "chapter": "2과"
+    },
+    {
+      "spell": "privilege",
+      "meaning": "특권",
+      "chapter": "3과"
+    },
+    {
+      "spell": "impulse",
+      "meaning": "추진",
+      "chapter": "2과"
+    },
+    {
+      "spell": "virtue",
+      "meaning": "덕",
+      "chapter": "7과"
+    },
+    {
+      "spell": "vice",
+      "meaning": "범죄",
+      "chapter": "7과"
+    },
+    {
+      "spell": "revolution",
+      "meaning": "혁명",
+      "chapter": "6과"
+    },
+    {
+      "spell": "stimulus",
+      "meaning": "자극",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ambition",
+      "meaning": "큰뜻",
+      "chapter": "8과"
+    },
+    {
+      "spell": "envy",
+      "meaning": "질투",
+      "chapter": "6과"
+    },
+    {
+      "spell": "fatigue",
+      "meaning": "피로",
+      "chapter": "4과"
+    },
+    {
+      "spell": "passion",
+      "meaning": "열정",
+      "chapter": "3과"
+    },
+    {
+      "spell": "calamity",
+      "meaning": "큰재난",
+      "chapter": "4과"
+    },
+    {
+      "spell": "individual",
+      "meaning": "개인",
+      "chapter": "7과"
+    },
+    {
+      "spell": "hypocrisy",
+      "meaning": "위선",
+      "chapter": "10과"
+    },
+    {
+      "spell": "character",
+      "meaning": "성격",
+      "chapter": "4과"
+    },
+    {
+      "spell": "method",
+      "meaning": "방법",
+      "chapter": "7과"
+    },
+    {
+      "spell": "psychology",
+      "meaning": "심리학",
+      "chapter": "10과"
+    },
+    {
+      "spell": "literature",
+      "meaning": "문학",
+      "chapter": "3과"
+    },
+    {
+      "spell": "system",
+      "meaning": "체계",
+      "chapter": "3과"
+    },
+    {
+      "spell": "challenge",
+      "meaning": "도전",
+      "chapter": "5과"
+    },
+    {
+      "spell": "monotony",
+      "meaning": "단조로움",
+      "chapter": "9과"
+    },
+    {
+      "spell": "disgrace",
+      "meaning": "불명예",
+      "chapter": "10과"
+    },
+    {
+      "spell": "anachronism",
+      "meaning": "시대착오",
+      "chapter": "5과"
+    },
+    {
+      "spell": "conquest",
+      "meaning": "정복",
+      "chapter": "7과"
+    },
+    {
+      "spell": "siege",
+      "meaning": "포위공격",
+      "chapter": "7과"
+    },
+    {
+      "spell": "insight",
+      "meaning": "통찰",
+      "chapter": "7과"
+    },
+    {
+      "spell": "panic",
+      "meaning": "기장류",
+      "chapter": "2과"
+    },
+    {
+      "spell": "universe",
+      "meaning": "우주",
+      "chapter": "3과"
+    },
+    {
+      "spell": "criticism",
+      "meaning": "비평",
+      "chapter": "9과"
+    },
+    {
+      "spell": "influence",
+      "meaning": "영향",
+      "chapter": "2과"
+    },
+    {
+      "spell": "resistance",
+      "meaning": "저항",
+      "chapter": "1과"
+    },
+    {
+      "spell": "convenience",
+      "meaning": "편의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "hardship",
+      "meaning": "곤란",
+      "chapter": "2과"
+    },
+    {
+      "spell": "fortitude",
+      "meaning": "꿋꿋함",
+      "chapter": "10과"
+    },
+    {
+      "spell": "compromise",
+      "meaning": "타협",
+      "chapter": "2과"
+    },
+    {
+      "spell": "prosperity",
+      "meaning": "번영",
+      "chapter": "8과"
+    },
+    {
+      "spell": "comfort",
+      "meaning": "위안하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "sacrifice",
+      "meaning": "산제물을바침",
+      "chapter": "8과"
+    },
+    {
+      "spell": "superstition",
+      "meaning": "미신",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sympathy",
+      "meaning": "공감",
+      "chapter": "7과"
+    },
+    {
+      "spell": "monopoly",
+      "meaning": "전매",
+      "chapter": "8과"
+    },
+    {
+      "spell": "species",
+      "meaning": "종",
+      "chapter": "5과"
+    },
+    {
+      "spell": "solitude",
+      "meaning": "고독",
+      "chapter": "2과"
+    },
+    {
+      "spell": "candidate",
+      "meaning": "후보자",
+      "chapter": "10과"
+    },
+    {
+      "spell": "environment",
+      "meaning": "환경",
+      "chapter": "5과"
+    },
+    {
+      "spell": "destiny",
+      "meaning": "운명",
+      "chapter": "3과"
+    },
+    {
+      "spell": "hindrance",
+      "meaning": "방해",
+      "chapter": "10과"
+    },
+    {
+      "spell": "property",
+      "meaning": "재산",
+      "chapter": "7과"
+    },
+    {
+      "spell": "increase",
+      "meaning": "늘다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "decrease",
+      "meaning": "줄다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "courtesy",
+      "meaning": "예의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "theory",
+      "meaning": "학설",
+      "chapter": "9과"
+    },
+    {
+      "spell": "medium",
+      "meaning": "수단",
+      "chapter": "3과"
+    },
+    {
+      "spell": "principle",
+      "meaning": "원리",
+      "chapter": "5과"
+    },
+    {
+      "spell": "shortcoming",
+      "meaning": "결점",
+      "chapter": "10과"
+    },
+    {
+      "spell": "crisis",
+      "meaning": "위기",
+      "chapter": "4과"
+    },
+    {
+      "spell": "policy",
+      "meaning": "정책",
+      "chapter": "6과"
+    },
+    {
+      "spell": "affection",
+      "meaning": "애정",
+      "chapter": "9과"
+    },
+    {
+      "spell": "conceit",
+      "meaning": "자만",
+      "chapter": "8과"
+    },
+    {
+      "spell": "hostility",
+      "meaning": "적의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "frustration",
+      "meaning": "좌절",
+      "chapter": "5과"
+    },
+    {
+      "spell": "triumph",
+      "meaning": "승리",
+      "chapter": "4과"
+    },
+    {
+      "spell": "hatred",
+      "meaning": "증오",
+      "chapter": "10과"
+    },
+    {
+      "spell": "purpose",
+      "meaning": "목적",
+      "chapter": "1과"
+    },
+    {
+      "spell": "fantasy",
+      "meaning": "상상",
+      "chapter": "7과"
+    },
+    {
+      "spell": "struggle",
+      "meaning": "발버둥치다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "access",
+      "meaning": "접근",
+      "chapter": "8과"
+    },
+    {
+      "spell": "convention",
+      "meaning": "집회",
+      "chapter": "3과"
+    },
+    {
+      "spell": "harmony",
+      "meaning": "조화",
+      "chapter": "9과"
+    },
+    {
+      "spell": "scorn",
+      "meaning": "경멸하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "comment",
+      "meaning": "논평",
+      "chapter": "1과"
+    },
+    {
+      "spell": "mercy",
+      "meaning": "자비",
+      "chapter": "5과"
+    },
+    {
+      "spell": "logic",
+      "meaning": "논리학",
+      "chapter": "1과"
+    },
+    {
+      "spell": "eloquence",
+      "meaning": "웅변",
+      "chapter": "3과"
+    },
+    {
+      "spell": "talent",
+      "meaning": "재능",
+      "chapter": "5과"
+    },
+    {
+      "spell": "modesty",
+      "meaning": "겸손",
+      "chapter": "6과"
+    },
+    {
+      "spell": "circumstance",
+      "meaning": "주위의사정",
+      "chapter": "6과"
+    },
+    {
+      "spell": "quality",
+      "meaning": "질",
+      "chapter": "3과"
+    },
+    {
+      "spell": "quantity",
+      "meaning": "양",
+      "chapter": "7과"
+    },
+    {
+      "spell": "commerce",
+      "meaning": "상업",
+      "chapter": "2과"
+    },
+    {
+      "spell": "conception",
+      "meaning": "개념",
+      "chapter": "3과"
+    },
+    {
+      "spell": "identity",
+      "meaning": "동일함",
+      "chapter": "5과"
+    },
+    {
+      "spell": "legend",
+      "meaning": "전설",
+      "chapter": "2과"
+    },
+    {
+      "spell": "trick",
+      "meaning": "계교",
+      "chapter": "4과"
+    },
+    {
+      "spell": "wealth",
+      "meaning": "부",
+      "chapter": "6과"
+    },
+    {
+      "spell": "charity",
+      "meaning": "사랑",
+      "chapter": "4과"
+    },
+    {
+      "spell": "fate",
+      "meaning": "운명",
+      "chapter": "3과"
+    },
+    {
+      "spell": "evidence",
+      "meaning": "증거",
+      "chapter": "6과"
+    },
+    {
+      "spell": "tension",
+      "meaning": "긴장",
+      "chapter": "9과"
+    },
+    {
+      "spell": "impression",
+      "meaning": "인상",
+      "chapter": "2과"
+    },
+    {
+      "spell": "strain",
+      "meaning": "잡아당기다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "bribe",
+      "meaning": "뇌물",
+      "chapter": "7과"
+    },
+    {
+      "spell": "sin",
+      "meaning": "죄",
+      "chapter": "3과"
+    },
+    {
+      "spell": "crime",
+      "meaning": "죄",
+      "chapter": "3과"
+    },
+    {
+      "spell": "strategy",
+      "meaning": "전략",
+      "chapter": "6과"
+    },
+    {
+      "spell": "heritage",
+      "meaning": "세습재산",
+      "chapter": "8과"
+    },
+    {
+      "spell": "strife",
+      "meaning": "투쟁",
+      "chapter": "1과"
+    },
+    {
+      "spell": "pollution",
+      "meaning": "오염",
+      "chapter": "10과"
+    },
+    {
+      "spell": "industry",
+      "meaning": "산업",
+      "chapter": "9과"
+    },
+    {
+      "spell": "defect",
+      "meaning": "결점",
+      "chapter": "2과"
+    },
+    {
+      "spell": "sincerity",
+      "meaning": "성실",
+      "chapter": "7과"
+    },
+    {
+      "spell": "adolescence",
+      "meaning": "청춘기",
+      "chapter": "1과"
+    },
+    {
+      "spell": "phenomenon",
+      "meaning": "현상",
+      "chapter": "3과"
+    },
+    {
+      "spell": "account",
+      "meaning": "설명",
+      "chapter": "7과"
+    },
+    {
+      "spell": "emphasis",
+      "meaning": "중요성",
+      "chapter": "5과"
+    },
+    {
+      "spell": "proportion",
+      "meaning": "비율",
+      "chapter": "7과"
+    },
+    {
+      "spell": "rumor",
+      "meaning": "소문",
+      "chapter": "1과"
+    },
+    {
+      "spell": "faculty",
+      "meaning": "능력",
+      "chapter": "4과"
+    },
+    {
+      "spell": "worship",
+      "meaning": "예배",
+      "chapter": "5과"
+    },
+    {
+      "spell": "doctrine",
+      "meaning": "교의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "pity",
+      "meaning": "불쌍히여김",
+      "chapter": "1과"
+    },
+    {
+      "spell": "commodity",
+      "meaning": "상품",
+      "chapter": "5과"
+    },
+    {
+      "spell": "distress",
+      "meaning": "고민",
+      "chapter": "1과"
+    },
+    {
+      "spell": "discourse",
+      "meaning": "강화",
+      "chapter": "3과"
+    },
+    {
+      "spell": "function",
+      "meaning": "기능",
+      "chapter": "6과"
+    },
+    {
+      "spell": "fallacy",
+      "meaning": "그릇된생각",
+      "chapter": "2과"
+    },
+    {
+      "spell": "violence",
+      "meaning": "격렬",
+      "chapter": "5과"
+    },
+    {
+      "spell": "appetite",
+      "meaning": "식욕",
+      "chapter": "4과"
+    },
+    {
+      "spell": "revival",
+      "meaning": "재생",
+      "chapter": "3과"
+    },
+    {
+      "spell": "foundation",
+      "meaning": "창설",
+      "chapter": "6과"
+    },
+    {
+      "spell": "behavior",
+      "meaning": "행동",
+      "chapter": "7과"
+    },
+    {
+      "spell": "discipline",
+      "meaning": "훈련",
+      "chapter": "2과"
+    },
+    {
+      "spell": "poverty",
+      "meaning": "빈곤",
+      "chapter": "8과"
+    },
+    {
+      "spell": "menace",
+      "meaning": "협박",
+      "chapter": "3과"
+    },
+    {
+      "spell": "plague",
+      "meaning": "역병",
+      "chapter": "5과"
+    },
+    {
+      "spell": "capacity",
+      "meaning": "수용력",
+      "chapter": "9과"
+    },
+    {
+      "spell": "merit",
+      "meaning": "장점",
+      "chapter": "1과"
+    },
+    {
+      "spell": "despair",
+      "meaning": "절망",
+      "chapter": "4과"
+    },
+    {
+      "spell": "confidence",
+      "meaning": "신임",
+      "chapter": "8과"
+    },
+    {
+      "spell": "enthusiasm",
+      "meaning": "열광",
+      "chapter": "4과"
+    },
+    {
+      "spell": "peril",
+      "meaning": "위험",
+      "chapter": "10과"
+    },
+    {
+      "spell": "ridicule",
+      "meaning": "비웃다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "liberty",
+      "meaning": "자유",
+      "chapter": "1과"
+    },
+    {
+      "spell": "spirit",
+      "meaning": "정신",
+      "chapter": "1과"
+    },
+    {
+      "spell": "traffic",
+      "meaning": "교통",
+      "chapter": "8과"
+    },
+    {
+      "spell": "remedy",
+      "meaning": "치료",
+      "chapter": "3과"
+    },
+    {
+      "spell": "symptom",
+      "meaning": "징후",
+      "chapter": "10과"
+    },
+    {
+      "spell": "tyranny",
+      "meaning": "전제정치",
+      "chapter": "9과"
+    },
+    {
+      "spell": "prospect",
+      "meaning": "전망",
+      "chapter": "7과"
+    },
+    {
+      "spell": "credit",
+      "meaning": "신뢰",
+      "chapter": "5과"
+    },
+    {
+      "spell": "profit",
+      "meaning": "이익",
+      "chapter": "7과"
+    },
+    {
+      "spell": "oblivion",
+      "meaning": "망각",
+      "chapter": "8과"
+    },
+    {
+      "spell": "constitution",
+      "meaning": "구성",
+      "chapter": "9과"
+    },
+    {
+      "spell": "extent",
+      "meaning": "넓이",
+      "chapter": "3과"
+    },
+    {
+      "spell": "genius",
+      "meaning": "천재",
+      "chapter": "3과"
+    },
+    {
+      "spell": "nightmare",
+      "meaning": "악몽",
+      "chapter": "4과"
+    },
+    {
+      "spell": "benefit",
+      "meaning": "이익",
+      "chapter": "4과"
+    },
+    {
+      "spell": "reign",
+      "meaning": "치세",
+      "chapter": "2과"
+    },
+    {
+      "spell": "ruin",
+      "meaning": "폐허",
+      "chapter": "8과"
+    },
+    {
+      "spell": "factor",
+      "meaning": "요인",
+      "chapter": "7과"
+    },
+    {
+      "spell": "vocation",
+      "meaning": "천직",
+      "chapter": "7과"
+    },
+    {
+      "spell": "contrast",
+      "meaning": "대조",
+      "chapter": "5과"
+    },
+    {
+      "spell": "welfare",
+      "meaning": "복지",
+      "chapter": "8과"
+    },
+    {
+      "spell": "community",
+      "meaning": "공동사회",
+      "chapter": "3과"
+    },
+    {
+      "spell": "faith",
+      "meaning": "신뢰",
+      "chapter": "3과"
+    },
+    {
+      "spell": "propaganda",
+      "meaning": "선전",
+      "chapter": "8과"
+    },
+    {
+      "spell": "melancholy",
+      "meaning": "우울",
+      "chapter": "10과"
+    },
+    {
+      "spell": "temper",
+      "meaning": "기질",
+      "chapter": "7과"
+    },
+    {
+      "spell": "finance",
+      "meaning": "재정",
+      "chapter": "1과"
+    },
+    {
+      "spell": "significance",
+      "meaning": "중요",
+      "chapter": "7과"
+    },
+    {
+      "spell": "suffrage",
+      "meaning": "투표",
+      "chapter": "10과"
+    },
+    {
+      "spell": "rage",
+      "meaning": "대유행",
+      "chapter": "7과"
+    },
+    {
+      "spell": "infancy",
+      "meaning": "유년",
+      "chapter": "4과"
+    },
+    {
+      "spell": "epidemic",
+      "meaning": "유행성의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "analogy",
+      "meaning": "유사",
+      "chapter": "1과"
+    },
+    {
+      "spell": "analysis",
+      "meaning": "분석",
+      "chapter": "1과"
+    },
+    {
+      "spell": "labor",
+      "meaning": "노동",
+      "chapter": "10과"
+    },
+    {
+      "spell": "substance",
+      "meaning": "물질",
+      "chapter": "3과"
+    },
+    {
+      "spell": "slang",
+      "meaning": "속어",
+      "chapter": "4과"
+    },
+    {
+      "spell": "vigor",
+      "meaning": "정력",
+      "chapter": "4과"
+    },
+    {
+      "spell": "heaven",
+      "meaning": "하늘",
+      "chapter": "8과"
+    },
+    {
+      "spell": "hell",
+      "meaning": "지옥",
+      "chapter": "8과"
+    },
+    {
+      "spell": "shame",
+      "meaning": "부끄러움",
+      "chapter": "8과"
+    },
+    {
+      "spell": "dialect",
+      "meaning": "방언",
+      "chapter": "6과"
+    },
+    {
+      "spell": "barrier",
+      "meaning": "방벽",
+      "chapter": "9과"
+    },
+    {
+      "spell": "barometer",
+      "meaning": "기압계",
+      "chapter": "5과"
+    },
+    {
+      "spell": "glory",
+      "meaning": "영광",
+      "chapter": "5과"
+    },
+    {
+      "spell": "generosity",
+      "meaning": "관대",
+      "chapter": "7과"
+    },
+    {
+      "spell": "technology",
+      "meaning": "과학기술",
+      "chapter": "10과"
+    },
+    {
+      "spell": "basis",
+      "meaning": "기초",
+      "chapter": "6과"
+    },
+    {
+      "spell": "gravity",
+      "meaning": "중력",
+      "chapter": "1과"
+    },
+    {
+      "spell": "treaty",
+      "meaning": "조약",
+      "chapter": "7과"
+    },
+    {
+      "spell": "advantage",
+      "meaning": "유리",
+      "chapter": "1과"
+    },
+    {
+      "spell": "vacuum",
+      "meaning": "진공",
+      "chapter": "10과"
+    },
+    {
+      "spell": "economy",
+      "meaning": "절약",
+      "chapter": "4과"
+    },
+    {
+      "spell": "bravery",
+      "meaning": "용감",
+      "chapter": "2과"
+    },
+    {
+      "spell": "sphere",
+      "meaning": "구체",
+      "chapter": "9과"
+    },
+    {
+      "spell": "biology",
+      "meaning": "생물학",
+      "chapter": "4과"
+    },
+    {
+      "spell": "fury",
+      "meaning": "격노",
+      "chapter": "9과"
+    },
+    {
+      "spell": "behalf",
+      "meaning": "이익",
+      "chapter": "6과"
+    },
+    {
+      "spell": "generalization",
+      "meaning": "일반화",
+      "chapter": "3과"
+    },
+    {
+      "spell": "horizon",
+      "meaning": "지평선",
+      "chapter": "3과"
+    },
+    {
+      "spell": "degree",
+      "meaning": "정도",
+      "chapter": "5과"
+    },
+    {
+      "spell": "folly",
+      "meaning": "어리석음",
+      "chapter": "1과"
+    },
+    {
+      "spell": "heredity",
+      "meaning": "유전",
+      "chapter": "6과"
+    },
+    {
+      "spell": "describe",
+      "meaning": "묘사하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "declare",
+      "meaning": "선언하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "recommend",
+      "meaning": "추천하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "contribute",
+      "meaning": "기부하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "distribute",
+      "meaning": "분배하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "extinguish",
+      "meaning": "끄다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "survive",
+      "meaning": "살아남다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "contrast",
+      "meaning": "대조",
+      "chapter": "9과"
+    },
+    {
+      "spell": "invade",
+      "meaning": "침략하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "upset",
+      "meaning": "뒤엎다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "accomplish",
+      "meaning": "이루다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "violate",
+      "meaning": "위배하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "stride",
+      "meaning": "큰걸음으로걷다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "forbear",
+      "meaning": "삼가다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "calculate",
+      "meaning": "계산하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "plow",
+      "meaning": "쟁기",
+      "chapter": "10과"
+    },
+    {
+      "spell": "grasp",
+      "meaning": "붙잡다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "stumble",
+      "meaning": "발부리가걸리다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "require",
+      "meaning": "필요로하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "cancel",
+      "meaning": "취소하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "deceive",
+      "meaning": "속이다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "combine",
+      "meaning": "결합시키다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "relate",
+      "meaning": "이야기하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "arrest",
+      "meaning": "체포하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "embody",
+      "meaning": "구체화하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "select",
+      "meaning": "고르다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "persist",
+      "meaning": "고집하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "tremble",
+      "meaning": "떨리다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "isolate",
+      "meaning": "고립시키다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "desert",
+      "meaning": "사막",
+      "chapter": "8과"
+    },
+    {
+      "spell": "establish",
+      "meaning": "설립하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "vary",
+      "meaning": "바꾸다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "stretch",
+      "meaning": "잡아늘이다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "starve",
+      "meaning": "굶어죽다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "generate",
+      "meaning": "일으키다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "reform",
+      "meaning": "개정하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "possess",
+      "meaning": "소유하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "devote",
+      "meaning": "바치다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "tend",
+      "meaning": "돌보다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "pursue",
+      "meaning": "쫓다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "attach",
+      "meaning": "붙이다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "perish",
+      "meaning": "죽다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "quit",
+      "meaning": "그만두다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "secure",
+      "meaning": "안전한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "reveal",
+      "meaning": "문설주",
+      "chapter": "1과"
+    },
+    {
+      "spell": "persuade",
+      "meaning": "설득하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "restore",
+      "meaning": "복구하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "acquire",
+      "meaning": "취득하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "halt",
+      "meaning": "멈추다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "mourn",
+      "meaning": "슬퍼하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "grumble",
+      "meaning": "투덜거리다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "convert",
+      "meaning": "변하게하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "despise",
+      "meaning": "경멸하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "commence",
+      "meaning": "개시하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "consume",
+      "meaning": "소비하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "assimilate",
+      "meaning": "자기것으로흡수하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "impose",
+      "meaning": "지우다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "encounter",
+      "meaning": "만나다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "release",
+      "meaning": "석방하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "specialize",
+      "meaning": "특수화하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "respond",
+      "meaning": "대답하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "soar",
+      "meaning": "높이치솟다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "detect",
+      "meaning": "발견하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "qualify",
+      "meaning": "…에게자격을주다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "decorate",
+      "meaning": "장식하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "accelerate",
+      "meaning": "속력을빠르게하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "betray",
+      "meaning": "팔다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "dominate",
+      "meaning": "지배하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "preserve",
+      "meaning": "보호하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "interrupt",
+      "meaning": "가로막다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "surpass",
+      "meaning": "…보다낫다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "render",
+      "meaning": "…을…하게하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "export",
+      "meaning": "수출하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "fulfil",
+      "meaning": "다하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "adjust",
+      "meaning": "조절하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "compensate",
+      "meaning": "보상하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "appreciate",
+      "meaning": "진가를인정하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "insist",
+      "meaning": "강요하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "acknowledge",
+      "meaning": "인정하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "distinguish",
+      "meaning": "구별하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "involve",
+      "meaning": "포함하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "torment",
+      "meaning": "고통",
+      "chapter": "8과"
+    },
+    {
+      "spell": "exhaust",
+      "meaning": "다써버리다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "endure",
+      "meaning": "참다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "hesitate",
+      "meaning": "주저하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "substitute",
+      "meaning": "대리를시키다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "prohibit",
+      "meaning": "금하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "forbid",
+      "meaning": "금하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "display",
+      "meaning": "전시하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "concentrate",
+      "meaning": "집중하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "yearn",
+      "meaning": "동경하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "forsake",
+      "meaning": "저버리다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "soothe",
+      "meaning": "달래다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "improve",
+      "meaning": "개선하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "diffuse",
+      "meaning": "흐트러뜨리다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "alter",
+      "meaning": "변경하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "speculate",
+      "meaning": "사색하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "recover",
+      "meaning": "되찾다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "urge",
+      "meaning": "몰아대다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "command",
+      "meaning": "명령하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "warn",
+      "meaning": "경고하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "transport",
+      "meaning": "수송하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ignore",
+      "meaning": "무시하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "conceal",
+      "meaning": "숨기다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "utter",
+      "meaning": "입밖에내다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "flatter",
+      "meaning": "아첨하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "absorb",
+      "meaning": "흡수하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "yield",
+      "meaning": "산출하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "meditate",
+      "meaning": "꾀하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "perform",
+      "meaning": "이행하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "reproach",
+      "meaning": "비난하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "overcome",
+      "meaning": "이기다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "assert",
+      "meaning": "단언하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "recognize",
+      "meaning": "인정하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "admit",
+      "meaning": "들이다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "persecute",
+      "meaning": "박해하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "launch",
+      "meaning": "진수시키다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "pretend",
+      "meaning": "…인체하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "circulate",
+      "meaning": "순환하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "contemplate",
+      "meaning": "심사숙고하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "cope",
+      "meaning": "대항하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "adapt",
+      "meaning": "적응시키다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "alarm",
+      "meaning": "놀람",
+      "chapter": "5과"
+    },
+    {
+      "spell": "adopt",
+      "meaning": "채용하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "submit",
+      "meaning": "복종시키다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "repent",
+      "meaning": "포복성의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "boast",
+      "meaning": "자랑하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "attribute",
+      "meaning": "…에귀착시키다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "survey",
+      "meaning": "바라보다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "invest",
+      "meaning": "투자하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "seek",
+      "meaning": "찾다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "communicate",
+      "meaning": "전달하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "perplex",
+      "meaning": "난처하게하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "broadcast",
+      "meaning": "방송하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "reject",
+      "meaning": "거절하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "overlook",
+      "meaning": "못보고지나치다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "reinforce",
+      "meaning": "강화하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "accuse",
+      "meaning": "고발하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "cherish",
+      "meaning": "소중히하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "suspend",
+      "meaning": "매달다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "inherit",
+      "meaning": "상속하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "undertake",
+      "meaning": "맡다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "include",
+      "meaning": "…을포함하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "exclude",
+      "meaning": "못들어오게하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "annoy",
+      "meaning": "성가시게굴다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "esteem",
+      "meaning": "존경하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "cure",
+      "meaning": "별난사람",
+      "chapter": "10과"
+    },
+    {
+      "spell": "resign",
+      "meaning": "사임하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "accurate",
+      "meaning": "정확한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "rational",
+      "meaning": "이성이있는",
+      "chapter": "1과"
+    },
+    {
+      "spell": "literate",
+      "meaning": "글을읽고쓸줄아는",
+      "chapter": "6과"
+    },
+    {
+      "spell": "conservative",
+      "meaning": "보수적인",
+      "chapter": "6과"
+    },
+    {
+      "spell": "radical",
+      "meaning": "근본적인",
+      "chapter": "10과"
+    },
+    {
+      "spell": "pure",
+      "meaning": "순수한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "queer",
+      "meaning": "기묘한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "sane",
+      "meaning": "제정신의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "entire",
+      "meaning": "전체의",
+      "chapter": "8과"
+    },
+    {
+      "spell": "lonely",
+      "meaning": "고독한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "savage",
+      "meaning": "A야만적인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "nuclear",
+      "meaning": "핵의",
+      "chapter": "2과"
+    },
+    {
+      "spell": "obscure",
+      "meaning": "분명치않은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "intricate",
+      "meaning": "얽힌",
+      "chapter": "5과"
+    },
+    {
+      "spell": "mortal",
+      "meaning": "죽어야할운명의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "exotic",
+      "meaning": "이국적인",
+      "chapter": "1과"
+    },
+    {
+      "spell": "extreme",
+      "meaning": "극도의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "imperative",
+      "meaning": "피할수없는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "mature",
+      "meaning": "익은",
+      "chapter": "3과"
+    },
+    {
+      "spell": "tight",
+      "meaning": "단단한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "dissolute",
+      "meaning": "방종한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mutual",
+      "meaning": "서로의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "splendid",
+      "meaning": "화려한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "timid",
+      "meaning": "겁많은",
+      "chapter": "10과"
+    },
+    {
+      "spell": "durable",
+      "meaning": "영속성있는",
+      "chapter": "7과"
+    },
+    {
+      "spell": "conspicuous",
+      "meaning": "눈에띄는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "brisk",
+      "meaning": "활발한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "primitive",
+      "meaning": "원시의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "superficial",
+      "meaning": "표면의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "abstract",
+      "meaning": "추상적인",
+      "chapter": "3과"
+    },
+    {
+      "spell": "concrete",
+      "meaning": "구체적인",
+      "chapter": "10과"
+    },
+    {
+      "spell": "profound",
+      "meaning": "깊은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "supreme",
+      "meaning": "최고의",
+      "chapter": "2과"
+    },
+    {
+      "spell": "trivial",
+      "meaning": "하찮은",
+      "chapter": "3과"
+    },
+    {
+      "spell": "thorough",
+      "meaning": "철저한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "athletic",
+      "meaning": "경기의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "meager",
+      "meaning": "메마른",
+      "chapter": "2과"
+    },
+    {
+      "spell": "ultimate",
+      "meaning": "최후의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "initial",
+      "meaning": "처음의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "solemn",
+      "meaning": "엄숙한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "sublime",
+      "meaning": "장엄한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "constructive",
+      "meaning": "건설적인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "destructive",
+      "meaning": "파괴적인",
+      "chapter": "6과"
+    },
+    {
+      "spell": "temporary",
+      "meaning": "일시적인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "contemporary",
+      "meaning": "같은시대의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "juvenile",
+      "meaning": "소년의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "abnormal",
+      "meaning": "비정상의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "external",
+      "meaning": "외부의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "rare",
+      "meaning": "드문",
+      "chapter": "10과"
+    },
+    {
+      "spell": "main",
+      "meaning": "주된",
+      "chapter": "8과"
+    },
+    {
+      "spell": "complex",
+      "meaning": "복잡한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "bold",
+      "meaning": "대담한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "crude",
+      "meaning": "천연그대로의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "polite",
+      "meaning": "공손한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "current",
+      "meaning": "지금의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "severe",
+      "meaning": "엄한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "remote",
+      "meaning": "먼",
+      "chapter": "5과"
+    },
+    {
+      "spell": "deliberate",
+      "meaning": "신중한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "separate",
+      "meaning": "가르다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "physical",
+      "meaning": "육체의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "eternal",
+      "meaning": "영원한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "unique",
+      "meaning": "유일한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "transparent",
+      "meaning": "투명한",
+      "chapter": "3과"
+    },
+    {
+      "spell": "swift",
+      "meaning": "빠른",
+      "chapter": "3과"
+    },
+    {
+      "spell": "surplus",
+      "meaning": "나머지",
+      "chapter": "6과"
+    },
+    {
+      "spell": "obstinate",
+      "meaning": "완고한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "stubborn",
+      "meaning": "완고한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "dense",
+      "meaning": "밀집한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "familiar",
+      "meaning": "잘알려진",
+      "chapter": "5과"
+    },
+    {
+      "spell": "shrewd",
+      "meaning": "예민한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "remarkable",
+      "meaning": "주목할만한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "punctual",
+      "meaning": "시간을잘지키는",
+      "chapter": "3과"
+    },
+    {
+      "spell": "rude",
+      "meaning": "버릇없는",
+      "chapter": "6과"
+    },
+    {
+      "spell": "earnest",
+      "meaning": "진지한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "typical",
+      "meaning": "전형적인",
+      "chapter": "7과"
+    },
+    {
+      "spell": "sole",
+      "meaning": "서대기",
+      "chapter": "7과"
+    },
+    {
+      "spell": "fundamental",
+      "meaning": "기본적인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "intense",
+      "meaning": "강렬한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "essential",
+      "meaning": "A본질적인",
+      "chapter": "6과"
+    },
+    {
+      "spell": "distinct",
+      "meaning": "별개의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "particular",
+      "meaning": "A특별한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "subtle",
+      "meaning": "미묘한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "ordinary",
+      "meaning": "평상의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "vulgar",
+      "meaning": "상스러운",
+      "chapter": "9과"
+    },
+    {
+      "spell": "feminine",
+      "meaning": "여자의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "deficient",
+      "meaning": "부족한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "tender",
+      "meaning": "부드러운",
+      "chapter": "1과"
+    },
+    {
+      "spell": "incurable",
+      "meaning": "불치의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "infinite",
+      "meaning": "무한한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "irresistible",
+      "meaning": "저항할수없는",
+      "chapter": "1과"
+    },
+    {
+      "spell": "barren",
+      "meaning": "불모의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "annual",
+      "meaning": "1년의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "precise",
+      "meaning": "정확한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "native",
+      "meaning": "출생지의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "constant",
+      "meaning": "불변의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "moral",
+      "meaning": "A도덕의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "delicate",
+      "meaning": "섬세한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ambiguous",
+      "meaning": "두가지뜻으로해석할수있는",
+      "chapter": "7과"
+    },
+    {
+      "spell": "neutral",
+      "meaning": "중립의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sacred",
+      "meaning": "신성한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "resolute",
+      "meaning": "굳게결심한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "ancient",
+      "meaning": "고대의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "precious",
+      "meaning": "귀중한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "stern",
+      "meaning": "엄격한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "education",
+      "meaning": "교육",
+      "chapter": "3과"
+    },
+    {
+      "spell": "surrender",
+      "meaning": "넘겨주다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "offspring",
+      "meaning": "자식",
+      "chapter": "1과"
+    },
+    {
+      "spell": "growth",
+      "meaning": "성장",
+      "chapter": "10과"
+    },
+    {
+      "spell": "orbit",
+      "meaning": "궤도",
+      "chapter": "1과"
+    },
+    {
+      "spell": "channel",
+      "meaning": "현측계류판",
+      "chapter": "2과"
+    },
+    {
+      "spell": "justice",
+      "meaning": "정의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "theme",
+      "meaning": "주제",
+      "chapter": "7과"
+    },
+    {
+      "spell": "routine",
+      "meaning": "판에박힌일",
+      "chapter": "10과"
+    },
+    {
+      "spell": "protest",
+      "meaning": "항의하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "prophecy",
+      "meaning": "예언",
+      "chapter": "7과"
+    },
+    {
+      "spell": "career",
+      "meaning": "직업",
+      "chapter": "8과"
+    },
+    {
+      "spell": "origin",
+      "meaning": "기원",
+      "chapter": "2과"
+    },
+    {
+      "spell": "process",
+      "meaning": "과정",
+      "chapter": "2과"
+    },
+    {
+      "spell": "agriculture",
+      "meaning": "농업",
+      "chapter": "2과"
+    },
+    {
+      "spell": "vote",
+      "meaning": "투표",
+      "chapter": "10과"
+    },
+    {
+      "spell": "spur",
+      "meaning": "박차",
+      "chapter": "5과"
+    },
+    {
+      "spell": "average",
+      "meaning": "평균",
+      "chapter": "10과"
+    },
+    {
+      "spell": "utility",
+      "meaning": "유용",
+      "chapter": "4과"
+    },
+    {
+      "spell": "slavery",
+      "meaning": "군침흘리는",
+      "chapter": "2과"
+    },
+    {
+      "spell": "caution",
+      "meaning": "조심",
+      "chapter": "10과"
+    },
+    {
+      "spell": "reaction",
+      "meaning": "반작용",
+      "chapter": "8과"
+    },
+    {
+      "spell": "atmosphere",
+      "meaning": "대기",
+      "chapter": "1과"
+    },
+    {
+      "spell": "satellite",
+      "meaning": "위성",
+      "chapter": "3과"
+    },
+    {
+      "spell": "sage",
+      "meaning": "샐비어",
+      "chapter": "4과"
+    },
+    {
+      "spell": "excess",
+      "meaning": "초과",
+      "chapter": "9과"
+    },
+    {
+      "spell": "prose",
+      "meaning": "산문",
+      "chapter": "8과"
+    },
+    {
+      "spell": "purchase",
+      "meaning": "사다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "oracle",
+      "meaning": "신탁",
+      "chapter": "10과"
+    },
+    {
+      "spell": "heir",
+      "meaning": "상속인",
+      "chapter": "7과"
+    },
+    {
+      "spell": "applause",
+      "meaning": "박수",
+      "chapter": "1과"
+    },
+    {
+      "spell": "scrutiny",
+      "meaning": "정밀한조사",
+      "chapter": "1과"
+    },
+    {
+      "spell": "notion",
+      "meaning": "관념",
+      "chapter": "6과"
+    },
+    {
+      "spell": "diplomacy",
+      "meaning": "외교",
+      "chapter": "10과"
+    },
+    {
+      "spell": "decade",
+      "meaning": "10년간",
+      "chapter": "1과"
+    },
+    {
+      "spell": "witness",
+      "meaning": "목격자",
+      "chapter": "6과"
+    },
+    {
+      "spell": "usage",
+      "meaning": "관습",
+      "chapter": "8과"
+    },
+    {
+      "spell": "institution",
+      "meaning": "학회",
+      "chapter": "7과"
+    },
+    {
+      "spell": "exertion",
+      "meaning": "노력",
+      "chapter": "10과"
+    },
+    {
+      "spell": "feature",
+      "meaning": "특징",
+      "chapter": "4과"
+    },
+    {
+      "spell": "disguise",
+      "meaning": "변장시키다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "congress",
+      "meaning": "국회",
+      "chapter": "1과"
+    },
+    {
+      "spell": "germ",
+      "meaning": "세균",
+      "chapter": "9과"
+    },
+    {
+      "spell": "geometry",
+      "meaning": "기하학",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sojourn",
+      "meaning": "묵다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "expedition",
+      "meaning": "원정",
+      "chapter": "5과"
+    },
+    {
+      "spell": "definition",
+      "meaning": "한정",
+      "chapter": "7과"
+    },
+    {
+      "spell": "issue",
+      "meaning": "발행물",
+      "chapter": "9과"
+    },
+    {
+      "spell": "conflict",
+      "meaning": "투쟁",
+      "chapter": "6과"
+    },
+    {
+      "spell": "disaster",
+      "meaning": "재해",
+      "chapter": "3과"
+    },
+    {
+      "spell": "focus",
+      "meaning": "초점",
+      "chapter": "10과"
+    },
+    {
+      "spell": "budget",
+      "meaning": "예산",
+      "chapter": "2과"
+    },
+    {
+      "spell": "ceremony",
+      "meaning": "의식",
+      "chapter": "9과"
+    },
+    {
+      "spell": "regret",
+      "meaning": "유감",
+      "chapter": "1과"
+    },
+    {
+      "spell": "enterprise",
+      "meaning": "기획",
+      "chapter": "3과"
+    },
+    {
+      "spell": "ravage",
+      "meaning": "파괴",
+      "chapter": "5과"
+    },
+    {
+      "spell": "tragedy",
+      "meaning": "비극",
+      "chapter": "3과"
+    },
+    {
+      "spell": "muscle",
+      "meaning": "근",
+      "chapter": "8과"
+    },
+    {
+      "spell": "unemployment",
+      "meaning": "실직",
+      "chapter": "10과"
+    },
+    {
+      "spell": "arithmetic",
+      "meaning": "산수",
+      "chapter": "6과"
+    },
+    {
+      "spell": "skill",
+      "meaning": "솜씨",
+      "chapter": "10과"
+    },
+    {
+      "spell": "instrument",
+      "meaning": "기계",
+      "chapter": "10과"
+    },
+    {
+      "spell": "mode",
+      "meaning": "방법",
+      "chapter": "8과"
+    },
+    {
+      "spell": "aristocracy",
+      "meaning": "귀족정치",
+      "chapter": "4과"
+    },
+    {
+      "spell": "wage",
+      "meaning": "임금",
+      "chapter": "10과"
+    },
+    {
+      "spell": "trial",
+      "meaning": "n.",
+      "chapter": "8과"
+    },
+    {
+      "spell": "burden",
+      "meaning": "반복구",
+      "chapter": "3과"
+    },
+    {
+      "spell": "tribe",
+      "meaning": "부족",
+      "chapter": "9과"
+    },
+    {
+      "spell": "realm",
+      "meaning": "왕국",
+      "chapter": "7과"
+    },
+    {
+      "spell": "fright",
+      "meaning": "공포",
+      "chapter": "4과"
+    },
+    {
+      "spell": "demand",
+      "meaning": "요구하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "supply",
+      "meaning": "공급하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "intelligence",
+      "meaning": "지능",
+      "chapter": "2과"
+    },
+    {
+      "spell": "frame",
+      "meaning": "창틀",
+      "chapter": "8과"
+    },
+    {
+      "spell": "hobby",
+      "meaning": "새호리기",
+      "chapter": "4과"
+    },
+    {
+      "spell": "twilight",
+      "meaning": "여명",
+      "chapter": "5과"
+    },
+    {
+      "spell": "fever",
+      "meaning": "열",
+      "chapter": "2과"
+    },
+    {
+      "spell": "relief",
+      "meaning": "제거",
+      "chapter": "10과"
+    },
+    {
+      "spell": "refuge",
+      "meaning": "피난",
+      "chapter": "2과"
+    },
+    {
+      "spell": "experiment",
+      "meaning": "실험",
+      "chapter": "10과"
+    },
+    {
+      "spell": "expense",
+      "meaning": "지출",
+      "chapter": "8과"
+    },
+    {
+      "spell": "grief",
+      "meaning": "큰슬픔",
+      "chapter": "5과"
+    },
+    {
+      "spell": "effect",
+      "meaning": "결과",
+      "chapter": "8과"
+    },
+    {
+      "spell": "scope",
+      "meaning": "스코프",
+      "chapter": "4과"
+    },
+    {
+      "spell": "habit",
+      "meaning": "관습",
+      "chapter": "5과"
+    },
+    {
+      "spell": "defense",
+      "meaning": "방어",
+      "chapter": "7과"
+    },
+    {
+      "spell": "aviation",
+      "meaning": "비행",
+      "chapter": "6과"
+    },
+    {
+      "spell": "resource",
+      "meaning": "자원",
+      "chapter": "1과"
+    },
+    {
+      "spell": "negligence",
+      "meaning": "태만",
+      "chapter": "9과"
+    },
+    {
+      "spell": "delay",
+      "meaning": "늦추다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "contact",
+      "meaning": "접촉",
+      "chapter": "8과"
+    },
+    {
+      "spell": "poison",
+      "meaning": "독",
+      "chapter": "1과"
+    },
+    {
+      "spell": "nutrition",
+      "meaning": "영양물섭취",
+      "chapter": "1과"
+    },
+    {
+      "spell": "obligation",
+      "meaning": "의무",
+      "chapter": "3과"
+    },
+    {
+      "spell": "reward",
+      "meaning": "보수",
+      "chapter": "2과"
+    },
+    {
+      "spell": "peer",
+      "meaning": "동등한사람",
+      "chapter": "1과"
+    },
+    {
+      "spell": "controversy",
+      "meaning": "논쟁",
+      "chapter": "5과"
+    },
+    {
+      "spell": "material",
+      "meaning": "재료",
+      "chapter": "7과"
+    },
+    {
+      "spell": "nationality",
+      "meaning": "국적",
+      "chapter": "5과"
+    },
+    {
+      "spell": "personality",
+      "meaning": "개성",
+      "chapter": "7과"
+    },
+    {
+      "spell": "region",
+      "meaning": "지방",
+      "chapter": "3과"
+    },
+    {
+      "spell": "clue",
+      "meaning": "실마리",
+      "chapter": "3과"
+    },
+    {
+      "spell": "parliament",
+      "meaning": "의회",
+      "chapter": "8과"
+    },
+    {
+      "spell": "government",
+      "meaning": "정치",
+      "chapter": "4과"
+    },
+    {
+      "spell": "oath",
+      "meaning": "맹세",
+      "chapter": "7과"
+    },
+    {
+      "spell": "revenue",
+      "meaning": "세입",
+      "chapter": "4과"
+    },
+    {
+      "spell": "explanation",
+      "meaning": "설명",
+      "chapter": "2과"
+    },
+    {
+      "spell": "minister",
+      "meaning": "성직자",
+      "chapter": "7과"
+    },
+    {
+      "spell": "majesty",
+      "meaning": "위엄",
+      "chapter": "4과"
+    },
+    {
+      "spell": "globe",
+      "meaning": "구",
+      "chapter": "4과"
+    },
+    {
+      "spell": "pressure",
+      "meaning": "누르기",
+      "chapter": "3과"
+    },
+    {
+      "spell": "standpoint",
+      "meaning": "견지",
+      "chapter": "4과"
+    },
+    {
+      "spell": "monument",
+      "meaning": "기념비",
+      "chapter": "9과"
+    },
+    {
+      "spell": "opponent",
+      "meaning": "적수",
+      "chapter": "6과"
+    },
+    {
+      "spell": "detail",
+      "meaning": "세부",
+      "chapter": "3과"
+    },
+    {
+      "spell": "solution",
+      "meaning": "해결",
+      "chapter": "9과"
+    },
+    {
+      "spell": "maximum",
+      "meaning": "최대한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "communism",
+      "meaning": "공산주의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "tide",
+      "meaning": "일어나다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "honesty",
+      "meaning": "정직",
+      "chapter": "5과"
+    },
+    {
+      "spell": "brute",
+      "meaning": "짐승",
+      "chapter": "9과"
+    },
+    {
+      "spell": "beast",
+      "meaning": "짐승",
+      "chapter": "4과"
+    },
+    {
+      "spell": "inspiration",
+      "meaning": "영감",
+      "chapter": "9과"
+    },
+    {
+      "spell": "harm",
+      "meaning": "해",
+      "chapter": "3과"
+    },
+    {
+      "spell": "taste",
+      "meaning": "미각",
+      "chapter": "6과"
+    },
+    {
+      "spell": "independence",
+      "meaning": "독립",
+      "chapter": "7과"
+    },
+    {
+      "spell": "engagement",
+      "meaning": "약속",
+      "chapter": "3과"
+    },
+    {
+      "spell": "rank",
+      "meaning": "계급",
+      "chapter": "8과"
+    },
+    {
+      "spell": "prairie",
+      "meaning": "대초원",
+      "chapter": "1과"
+    },
+    {
+      "spell": "cradle",
+      "meaning": "요람",
+      "chapter": "1과"
+    },
+    {
+      "spell": "incident",
+      "meaning": "일어난일",
+      "chapter": "2과"
+    },
+    {
+      "spell": "disillusion",
+      "meaning": "…의환영을깨우치다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "election",
+      "meaning": "선거",
+      "chapter": "7과"
+    },
+    {
+      "spell": "gesture",
+      "meaning": "기미",
+      "chapter": "5과"
+    },
+    {
+      "spell": "adventure",
+      "meaning": "모험",
+      "chapter": "2과"
+    },
+    {
+      "spell": "resort",
+      "meaning": "의지하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "situation",
+      "meaning": "위치",
+      "chapter": "5과"
+    },
+    {
+      "spell": "emigrant",
+      "meaning": "이민",
+      "chapter": "4과"
+    },
+    {
+      "spell": "historian",
+      "meaning": "역사가",
+      "chapter": "1과"
+    },
+    {
+      "spell": "creature",
+      "meaning": "창조물",
+      "chapter": "2과"
+    },
+    {
+      "spell": "victim",
+      "meaning": "희생자",
+      "chapter": "2과"
+    },
+    {
+      "spell": "delight",
+      "meaning": "기쁨",
+      "chapter": "7과"
+    },
+    {
+      "spell": "decay",
+      "meaning": "부식하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "colony",
+      "meaning": "식민지",
+      "chapter": "5과"
+    },
+    {
+      "spell": "philosophy",
+      "meaning": "철학",
+      "chapter": "2과"
+    },
+    {
+      "spell": "treasure",
+      "meaning": "보물",
+      "chapter": "9과"
+    },
+    {
+      "spell": "flesh",
+      "meaning": "살",
+      "chapter": "9과"
+    },
+    {
+      "spell": "conduct",
+      "meaning": "행위",
+      "chapter": "2과"
+    },
+    {
+      "spell": "aspect",
+      "meaning": "양상",
+      "chapter": "1과"
+    },
+    {
+      "spell": "anniversary",
+      "meaning": "기념일",
+      "chapter": "9과"
+    },
+    {
+      "spell": "laboratory",
+      "meaning": "실험실",
+      "chapter": "7과"
+    },
+    {
+      "spell": "cell",
+      "meaning": "셀",
+      "chapter": "2과"
+    },
+    {
+      "spell": "area",
+      "meaning": "범위",
+      "chapter": "4과"
+    },
+    {
+      "spell": "assent",
+      "meaning": "동의하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "manuscript",
+      "meaning": "원고",
+      "chapter": "4과"
+    },
+    {
+      "spell": "mechanism",
+      "meaning": "기계장치",
+      "chapter": "4과"
+    },
+    {
+      "spell": "scent",
+      "meaning": "냄새",
+      "chapter": "5과"
+    },
+    {
+      "spell": "donation",
+      "meaning": "기부",
+      "chapter": "6과"
+    },
+    {
+      "spell": "continent",
+      "meaning": "자제심있는",
+      "chapter": "9과"
+    },
+    {
+      "spell": "essay",
+      "meaning": "수필",
+      "chapter": "8과"
+    },
+    {
+      "spell": "fable",
+      "meaning": "우화",
+      "chapter": "8과"
+    },
+    {
+      "spell": "maxim",
+      "meaning": "격언",
+      "chapter": "5과"
+    },
+    {
+      "spell": "perspective",
+      "meaning": "원근법",
+      "chapter": "7과"
+    },
+    {
+      "spell": "fortune",
+      "meaning": "부",
+      "chapter": "10과"
+    },
+    {
+      "spell": "aid",
+      "meaning": "돕다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "fuel",
+      "meaning": "연료",
+      "chapter": "7과"
+    },
+    {
+      "spell": "sigh",
+      "meaning": "한숨쉬다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "furniture",
+      "meaning": "가구",
+      "chapter": "4과"
+    },
+    {
+      "spell": "shelter",
+      "meaning": "피난처",
+      "chapter": "2과"
+    },
+    {
+      "spell": "view",
+      "meaning": "봄",
+      "chapter": "4과"
+    },
+    {
+      "spell": "inability",
+      "meaning": "무능",
+      "chapter": "5과"
+    },
+    {
+      "spell": "territory",
+      "meaning": "영토",
+      "chapter": "4과"
+    },
+    {
+      "spell": "imitation",
+      "meaning": "모방",
+      "chapter": "9과"
+    },
+    {
+      "spell": "alternative",
+      "meaning": "둘중에서의선택",
+      "chapter": "5과"
+    },
+    {
+      "spell": "foliage",
+      "meaning": "잎",
+      "chapter": "1과"
+    },
+    {
+      "spell": "preface",
+      "meaning": "서문",
+      "chapter": "3과"
+    },
+    {
+      "spell": "review",
+      "meaning": "평론",
+      "chapter": "2과"
+    },
+    {
+      "spell": "mischief",
+      "meaning": "장난",
+      "chapter": "7과"
+    },
+    {
+      "spell": "departure",
+      "meaning": "출발",
+      "chapter": "5과"
+    },
+    {
+      "spell": "surface",
+      "meaning": "표면",
+      "chapter": "6과"
+    },
+    {
+      "spell": "funeral",
+      "meaning": "장례의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "ignorance",
+      "meaning": "무지",
+      "chapter": "6과"
+    },
+    {
+      "spell": "popularity",
+      "meaning": "인기",
+      "chapter": "7과"
+    },
+    {
+      "spell": "pace",
+      "meaning": "걸음걸이",
+      "chapter": "2과"
+    },
+    {
+      "spell": "merchandise",
+      "meaning": "상품",
+      "chapter": "9과"
+    },
+    {
+      "spell": "predecessor",
+      "meaning": "전임자",
+      "chapter": "1과"
+    },
+    {
+      "spell": "soil",
+      "meaning": "더럽히다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "hospitality",
+      "meaning": "환대",
+      "chapter": "2과"
+    },
+    {
+      "spell": "trait",
+      "meaning": "특성",
+      "chapter": "2과"
+    },
+    {
+      "spell": "riddle",
+      "meaning": "수수께끼",
+      "chapter": "8과"
+    },
+    {
+      "spell": "vision",
+      "meaning": "시력",
+      "chapter": "1과"
+    },
+    {
+      "spell": "treachery",
+      "meaning": "배반",
+      "chapter": "6과"
+    },
+    {
+      "spell": "pasture",
+      "meaning": "목장",
+      "chapter": "8과"
+    },
+    {
+      "spell": "specimen",
+      "meaning": "견본",
+      "chapter": "5과"
+    },
+    {
+      "spell": "trace",
+      "meaning": "봇줄",
+      "chapter": "1과"
+    },
+    {
+      "spell": "slumber",
+      "meaning": "자다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "harvest",
+      "meaning": "수확",
+      "chapter": "1과"
+    },
+    {
+      "spell": "tact",
+      "meaning": "재치",
+      "chapter": "3과"
+    },
+    {
+      "spell": "element",
+      "meaning": "요소",
+      "chapter": "4과"
+    },
+    {
+      "spell": "flaw",
+      "meaning": "돌풍",
+      "chapter": "4과"
+    },
+    {
+      "spell": "riot",
+      "meaning": "폭동",
+      "chapter": "1과"
+    },
+    {
+      "spell": "folk",
+      "meaning": "사람들",
+      "chapter": "10과"
+    },
+    {
+      "spell": "temperance",
+      "meaning": "절제",
+      "chapter": "8과"
+    },
+    {
+      "spell": "mob",
+      "meaning": "폭도",
+      "chapter": "1과"
+    },
+    {
+      "spell": "adult",
+      "meaning": "어른의",
+      "chapter": "2과"
+    },
+    {
+      "spell": "expansion",
+      "meaning": "확장",
+      "chapter": "7과"
+    },
+    {
+      "spell": "output",
+      "meaning": "생산",
+      "chapter": "1과"
+    },
+    {
+      "spell": "glance",
+      "meaning": "흘긋봄",
+      "chapter": "2과"
+    },
+    {
+      "spell": "conclusion",
+      "meaning": "결말",
+      "chapter": "7과"
+    },
+    {
+      "spell": "reverie",
+      "meaning": "몽상",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mixture",
+      "meaning": "혼합",
+      "chapter": "1과"
+    },
+    {
+      "spell": "outcome",
+      "meaning": "결과",
+      "chapter": "10과"
+    },
+    {
+      "spell": "expert",
+      "meaning": "숙련가",
+      "chapter": "4과"
+    },
+    {
+      "spell": "project",
+      "meaning": "계획",
+      "chapter": "1과"
+    },
+    {
+      "spell": "consequence",
+      "meaning": "결과",
+      "chapter": "3과"
+    },
+    {
+      "spell": "pioneer",
+      "meaning": "개척자",
+      "chapter": "9과"
+    },
+    {
+      "spell": "revenge",
+      "meaning": "복수",
+      "chapter": "5과"
+    },
+    {
+      "spell": "amount",
+      "meaning": "총액",
+      "chapter": "7과"
+    },
+    {
+      "spell": "repose",
+      "meaning": "두다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "author",
+      "meaning": "저자",
+      "chapter": "5과"
+    },
+    {
+      "spell": "audience",
+      "meaning": "청중",
+      "chapter": "6과"
+    },
+    {
+      "spell": "throne",
+      "meaning": "왕좌",
+      "chapter": "8과"
+    },
+    {
+      "spell": "outlook",
+      "meaning": "조망",
+      "chapter": "7과"
+    },
+    {
+      "spell": "expression",
+      "meaning": "표현",
+      "chapter": "7과"
+    },
+    {
+      "spell": "benefactor",
+      "meaning": "은혜를베푸는사람",
+      "chapter": "3과"
+    },
+    {
+      "spell": "proposal",
+      "meaning": "신청",
+      "chapter": "7과"
+    },
+    {
+      "spell": "phase",
+      "meaning": "상",
+      "chapter": "9과"
+    },
+    {
+      "spell": "male",
+      "meaning": "남자",
+      "chapter": "1과"
+    },
+    {
+      "spell": "relish",
+      "meaning": "맛",
+      "chapter": "6과"
+    },
+    {
+      "spell": "motive",
+      "meaning": "동기",
+      "chapter": "7과"
+    },
+    {
+      "spell": "summary",
+      "meaning": "요약",
+      "chapter": "3과"
+    },
+    {
+      "spell": "plot",
+      "meaning": "음모",
+      "chapter": "4과"
+    },
+    {
+      "spell": "relic",
+      "meaning": "유물",
+      "chapter": "5과"
+    },
+    {
+      "spell": "bronze",
+      "meaning": "청동",
+      "chapter": "9과"
+    },
+    {
+      "spell": "status",
+      "meaning": "지위",
+      "chapter": "10과"
+    },
+    {
+      "spell": "mystery",
+      "meaning": "직업",
+      "chapter": "7과"
+    },
+    {
+      "spell": "trifle",
+      "meaning": "하찮은것",
+      "chapter": "2과"
+    },
+    {
+      "spell": "spectacle",
+      "meaning": "광경",
+      "chapter": "8과"
+    },
+    {
+      "spell": "trap",
+      "meaning": "휴대품",
+      "chapter": "8과"
+    },
+    {
+      "spell": "imagination",
+      "meaning": "상상",
+      "chapter": "1과"
+    },
+    {
+      "spell": "omen",
+      "meaning": "전조",
+      "chapter": "5과"
+    },
+    {
+      "spell": "effort",
+      "meaning": "노력",
+      "chapter": "3과"
+    },
+    {
+      "spell": "snare",
+      "meaning": "덫",
+      "chapter": "7과"
+    },
+    {
+      "spell": "satisfaction",
+      "meaning": "만족",
+      "chapter": "6과"
+    },
+    {
+      "spell": "estate",
+      "meaning": "소유지",
+      "chapter": "3과"
+    },
+    {
+      "spell": "orator",
+      "meaning": "연설자",
+      "chapter": "7과"
+    },
+    {
+      "spell": "plea",
+      "meaning": "탄원",
+      "chapter": "4과"
+    },
+    {
+      "spell": "activity",
+      "meaning": "활동",
+      "chapter": "10과"
+    },
+    {
+      "spell": "stage",
+      "meaning": "단계",
+      "chapter": "4과"
+    },
+    {
+      "spell": "decree",
+      "meaning": "법령",
+      "chapter": "5과"
+    },
+    {
+      "spell": "hazard",
+      "meaning": "위험",
+      "chapter": "10과"
+    },
+    {
+      "spell": "pattern",
+      "meaning": "무늬",
+      "chapter": "4과"
+    },
+    {
+      "spell": "fluid",
+      "meaning": "유동성의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "union",
+      "meaning": "결합",
+      "chapter": "8과"
+    },
+    {
+      "spell": "cave",
+      "meaning": "경계",
+      "chapter": "2과"
+    },
+    {
+      "spell": "feat",
+      "meaning": "적당한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "digestion",
+      "meaning": "소화",
+      "chapter": "7과"
+    },
+    {
+      "spell": "verse",
+      "meaning": "운문",
+      "chapter": "6과"
+    },
+    {
+      "spell": "counsel",
+      "meaning": "상담",
+      "chapter": "9과"
+    },
+    {
+      "spell": "token",
+      "meaning": "표",
+      "chapter": "3과"
+    },
+    {
+      "spell": "value",
+      "meaning": "가치",
+      "chapter": "8과"
+    },
+    {
+      "spell": "flavor",
+      "meaning": "풍미",
+      "chapter": "3과"
+    },
+    {
+      "spell": "transition",
+      "meaning": "변천",
+      "chapter": "1과"
+    },
+    {
+      "spell": "pause",
+      "meaning": "중단하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "heathen",
+      "meaning": "이방인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "worth",
+      "meaning": "일어나다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "heretic",
+      "meaning": "이교도",
+      "chapter": "5과"
+    },
+    {
+      "spell": "fund",
+      "meaning": "기금",
+      "chapter": "9과"
+    },
+    {
+      "spell": "bait",
+      "meaning": "미끼를달다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "range",
+      "meaning": "열",
+      "chapter": "1과"
+    },
+    {
+      "spell": "orientation",
+      "meaning": "적응",
+      "chapter": "4과"
+    },
+    {
+      "spell": "stature",
+      "meaning": "키",
+      "chapter": "1과"
+    },
+    {
+      "spell": "retort",
+      "meaning": "레토르트",
+      "chapter": "9과"
+    },
+    {
+      "spell": "metropolis",
+      "meaning": "주요도시",
+      "chapter": "3과"
+    },
+    {
+      "spell": "layer",
+      "meaning": "층",
+      "chapter": "7과"
+    },
+    {
+      "spell": "volume",
+      "meaning": "책",
+      "chapter": "1과"
+    },
+    {
+      "spell": "testimony",
+      "meaning": "증언",
+      "chapter": "3과"
+    },
+    {
+      "spell": "spot",
+      "meaning": "반점",
+      "chapter": "4과"
+    },
+    {
+      "spell": "seed",
+      "meaning": "씨",
+      "chapter": "5과"
+    },
+    {
+      "spell": "reverence",
+      "meaning": "경외하는마음",
+      "chapter": "5과"
+    },
+    {
+      "spell": "crust",
+      "meaning": "빵껍질",
+      "chapter": "7과"
+    },
+    {
+      "spell": "boss",
+      "meaning": "n.",
+      "chapter": "3과"
+    },
+    {
+      "spell": "agony",
+      "meaning": "심한고통",
+      "chapter": "7과"
+    },
+    {
+      "spell": "wisdom",
+      "meaning": "현명",
+      "chapter": "5과"
+    },
+    {
+      "spell": "propriety",
+      "meaning": "예의바름",
+      "chapter": "9과"
+    },
+    {
+      "spell": "physics",
+      "meaning": "n.pl.물리학",
+      "chapter": "6과"
+    },
+    {
+      "spell": "timber",
+      "meaning": "모피의한묶음",
+      "chapter": "1과"
+    },
+    {
+      "spell": "planet",
+      "meaning": "행성",
+      "chapter": "3과"
+    },
+    {
+      "spell": "design",
+      "meaning": "디자인",
+      "chapter": "2과"
+    },
+    {
+      "spell": "leisure",
+      "meaning": "자유시간",
+      "chapter": "7과"
+    },
+    {
+      "spell": "organization",
+      "meaning": "조직",
+      "chapter": "8과"
+    },
+    {
+      "spell": "republic",
+      "meaning": "공화국",
+      "chapter": "9과"
+    },
+    {
+      "spell": "prosecution",
+      "meaning": "기소",
+      "chapter": "9과"
+    },
+    {
+      "spell": "cottage",
+      "meaning": "시골집",
+      "chapter": "3과"
+    },
+    {
+      "spell": "castle",
+      "meaning": "성",
+      "chapter": "4과"
+    },
+    {
+      "spell": "conference",
+      "meaning": "협의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "tomb",
+      "meaning": "무덤",
+      "chapter": "2과"
+    },
+    {
+      "spell": "fault",
+      "meaning": "결점",
+      "chapter": "2과"
+    },
+    {
+      "spell": "magic",
+      "meaning": "마법",
+      "chapter": "10과"
+    },
+    {
+      "spell": "aim",
+      "meaning": "겨누다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "risk",
+      "meaning": "위험",
+      "chapter": "5과"
+    },
+    {
+      "spell": "tool",
+      "meaning": "연장",
+      "chapter": "9과"
+    },
+    {
+      "spell": "weapon",
+      "meaning": "무기",
+      "chapter": "5과"
+    },
+    {
+      "spell": "vehicle",
+      "meaning": "탈것",
+      "chapter": "3과"
+    },
+    {
+      "spell": "contest",
+      "meaning": "경쟁",
+      "chapter": "1과"
+    },
+    {
+      "spell": "favor",
+      "meaning": "호의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mankind",
+      "meaning": "인류",
+      "chapter": "7과"
+    },
+    {
+      "spell": "draft",
+      "meaning": "밑그림",
+      "chapter": "1과"
+    },
+    {
+      "spell": "bomb",
+      "meaning": "폭탄",
+      "chapter": "3과"
+    },
+    {
+      "spell": "nerve",
+      "meaning": "신경",
+      "chapter": "3과"
+    },
+    {
+      "spell": "addition",
+      "meaning": "추가",
+      "chapter": "1과"
+    },
+    {
+      "spell": "measure",
+      "meaning": "재다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "vogue",
+      "meaning": "유행",
+      "chapter": "8과"
+    },
+    {
+      "spell": "reserve",
+      "meaning": "남겨두다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "occasion",
+      "meaning": "경우",
+      "chapter": "7과"
+    },
+    {
+      "spell": "dictator",
+      "meaning": "독재자",
+      "chapter": "4과"
+    },
+    {
+      "spell": "disorder",
+      "meaning": "무질서",
+      "chapter": "1과"
+    },
+    {
+      "spell": "cast",
+      "meaning": "던지다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "chamber",
+      "meaning": "방",
+      "chapter": "3과"
+    },
+    {
+      "spell": "devil",
+      "meaning": "악마",
+      "chapter": "8과"
+    },
+    {
+      "spell": "barbarian",
+      "meaning": "야만인",
+      "chapter": "4과"
+    },
+    {
+      "spell": "stuff",
+      "meaning": "물질",
+      "chapter": "4과"
+    },
+    {
+      "spell": "scheme",
+      "meaning": "계획",
+      "chapter": "4과"
+    },
+    {
+      "spell": "legislation",
+      "meaning": "법률제정",
+      "chapter": "3과"
+    },
+    {
+      "spell": "symmetry",
+      "meaning": "대칭",
+      "chapter": "1과"
+    },
+    {
+      "spell": "pomp",
+      "meaning": "화려",
+      "chapter": "7과"
+    },
+    {
+      "spell": "antiquity",
+      "meaning": "낡음",
+      "chapter": "7과"
+    },
+    {
+      "spell": "bent",
+      "meaning": "BEND의과거·과거분사",
+      "chapter": "9과"
+    },
+    {
+      "spell": "creed",
+      "meaning": "신경",
+      "chapter": "7과"
+    },
+    {
+      "spell": "procedure",
+      "meaning": "순서",
+      "chapter": "3과"
+    },
+    {
+      "spell": "standard",
+      "meaning": "표준",
+      "chapter": "7과"
+    },
+    {
+      "spell": "boredom",
+      "meaning": "지루함",
+      "chapter": "5과"
+    },
+    {
+      "spell": "device",
+      "meaning": "장치",
+      "chapter": "6과"
+    },
+    {
+      "spell": "greed",
+      "meaning": "탐욕",
+      "chapter": "6과"
+    },
+    {
+      "spell": "contagion",
+      "meaning": "접촉전염",
+      "chapter": "7과"
+    },
+    {
+      "spell": "satire",
+      "meaning": "풍자",
+      "chapter": "9과"
+    },
+    {
+      "spell": "hypothesis",
+      "meaning": "가설",
+      "chapter": "7과"
+    },
+    {
+      "spell": "proposition",
+      "meaning": "제안",
+      "chapter": "5과"
+    },
+    {
+      "spell": "perfume",
+      "meaning": "향수",
+      "chapter": "6과"
+    },
+    {
+      "spell": "miniature",
+      "meaning": "축소모형",
+      "chapter": "5과"
+    },
+    {
+      "spell": "bond",
+      "meaning": "묶는것",
+      "chapter": "4과"
+    },
+    {
+      "spell": "providence",
+      "meaning": "섭리",
+      "chapter": "3과"
+    },
+    {
+      "spell": "domain",
+      "meaning": "영토",
+      "chapter": "6과"
+    },
+    {
+      "spell": "anguish",
+      "meaning": "격통",
+      "chapter": "6과"
+    },
+    {
+      "spell": "facility",
+      "meaning": "설비",
+      "chapter": "5과"
+    },
+    {
+      "spell": "hygiene",
+      "meaning": "위생",
+      "chapter": "2과"
+    },
+    {
+      "spell": "conspiracy",
+      "meaning": "음모",
+      "chapter": "10과"
+    },
+    {
+      "spell": "ecstasy",
+      "meaning": "무아경",
+      "chapter": "3과"
+    },
+    {
+      "spell": "censure",
+      "meaning": "비난",
+      "chapter": "4과"
+    },
+    {
+      "spell": "allowance",
+      "meaning": "수당",
+      "chapter": "5과"
+    },
+    {
+      "spell": "campaign",
+      "meaning": "운동",
+      "chapter": "7과"
+    },
+    {
+      "spell": "canal",
+      "meaning": "운하",
+      "chapter": "7과"
+    },
+    {
+      "spell": "defiance",
+      "meaning": "도전",
+      "chapter": "5과"
+    },
+    {
+      "spell": "craft",
+      "meaning": "기능",
+      "chapter": "4과"
+    },
+    {
+      "spell": "patent",
+      "meaning": "특허",
+      "chapter": "7과"
+    },
+    {
+      "spell": "countenance",
+      "meaning": "표정",
+      "chapter": "7과"
+    },
+    {
+      "spell": "pulse",
+      "meaning": "콩",
+      "chapter": "1과"
+    },
+    {
+      "spell": "implement",
+      "meaning": "도구",
+      "chapter": "9과"
+    },
+    {
+      "spell": "catastrophe",
+      "meaning": "대참사",
+      "chapter": "10과"
+    },
+    {
+      "spell": "accident",
+      "meaning": "사고",
+      "chapter": "10과"
+    },
+    {
+      "spell": "district",
+      "meaning": "지구",
+      "chapter": "2과"
+    },
+    {
+      "spell": "direction",
+      "meaning": "방향",
+      "chapter": "5과"
+    },
+    {
+      "spell": "textile",
+      "meaning": "직물의",
+      "chapter": "8과"
+    },
+    {
+      "spell": "organ",
+      "meaning": "오르간",
+      "chapter": "8과"
+    },
+    {
+      "spell": "blood",
+      "meaning": "피",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ray",
+      "meaning": "광선",
+      "chapter": "5과"
+    },
+    {
+      "spell": "crop",
+      "meaning": "농작물",
+      "chapter": "3과"
+    },
+    {
+      "spell": "drought",
+      "meaning": "가뭄",
+      "chapter": "8과"
+    },
+    {
+      "spell": "skin",
+      "meaning": "피부",
+      "chapter": "1과"
+    },
+    {
+      "spell": "bone",
+      "meaning": "뼈",
+      "chapter": "9과"
+    },
+    {
+      "spell": "interest",
+      "meaning": "관심",
+      "chapter": "8과"
+    },
+    {
+      "spell": "limit",
+      "meaning": "한계",
+      "chapter": "5과"
+    },
+    {
+      "spell": "haste",
+      "meaning": "급함",
+      "chapter": "4과"
+    },
+    {
+      "spell": "bless",
+      "meaning": "축복하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "irritate",
+      "meaning": "무효로하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "cooperate",
+      "meaning": "협력하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "refer",
+      "meaning": "알아보도록하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "permit",
+      "meaning": "허락하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "exaggerate",
+      "meaning": "과장하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "emerge",
+      "meaning": "나오다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "equip",
+      "meaning": "갖추어주다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "ornament",
+      "meaning": "꾸밈",
+      "chapter": "4과"
+    },
+    {
+      "spell": "advance",
+      "meaning": "나아가게하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "embark",
+      "meaning": "태우다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "flourish",
+      "meaning": "번창하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "diminish",
+      "meaning": "줄이다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "derive",
+      "meaning": "끌어내다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "exchange",
+      "meaning": "교환하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "promote",
+      "meaning": "증진하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "nourish",
+      "meaning": "기르다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "ascertain",
+      "meaning": "확인하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "swear",
+      "meaning": "맹세하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "celebrate",
+      "meaning": "축하하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "pray",
+      "meaning": "빌다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "reflect",
+      "meaning": "반사하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "ascend",
+      "meaning": "오르다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "descend",
+      "meaning": "내려가다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "mention",
+      "meaning": "간단히말하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "occupy",
+      "meaning": "차지하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "surround",
+      "meaning": "둘러싸다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "avail",
+      "meaning": "…에도움이되다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "preach",
+      "meaning": "설교하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "retire",
+      "meaning": "퇴직하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "argue",
+      "meaning": "논하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "affect",
+      "meaning": "…에영향을미치다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "operate",
+      "meaning": "움직이다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "condemn",
+      "meaning": "비난하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "praise",
+      "meaning": "칭찬",
+      "chapter": "5과"
+    },
+    {
+      "spell": "forgive",
+      "meaning": "용서하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "deserve",
+      "meaning": "…할만하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "recollect",
+      "meaning": "생각해내다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "stir",
+      "meaning": "휘젓다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "exploit",
+      "meaning": "공훈",
+      "chapter": "8과"
+    },
+    {
+      "spell": "contradict",
+      "meaning": "부정하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "develop",
+      "meaning": "발달시키다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "approach",
+      "meaning": "…에다가가다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "emancipate",
+      "meaning": "해방하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "classify",
+      "meaning": "분류하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "represent",
+      "meaning": "나타내다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "reduce",
+      "meaning": "줄이다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "wither",
+      "meaning": "시들다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "commit",
+      "meaning": "위탁하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "claim",
+      "meaning": "요구하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "seclude",
+      "meaning": "…에서떼어놓다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "animate",
+      "meaning": "…에생명을불어넣다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "apply",
+      "meaning": "대다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "disappoint",
+      "meaning": "실망시키다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "trespass",
+      "meaning": "침입하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "decide",
+      "meaning": "결심[결의]하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "compete",
+      "meaning": "경쟁하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "perceive",
+      "meaning": "지각하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "enchant",
+      "meaning": "요술을걸다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "consider",
+      "meaning": "잘생각하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "transform",
+      "meaning": "변형시키다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "penetrate",
+      "meaning": "…에꽂히다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "extend",
+      "meaning": "뻗다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "reside",
+      "meaning": "거주하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "confine",
+      "meaning": "한정하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "exhibit",
+      "meaning": "전시하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "extract",
+      "meaning": "뽑다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "imply",
+      "meaning": "포함하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "determine",
+      "meaning": "결심시키다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "indicate",
+      "meaning": "가리키다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "pierce",
+      "meaning": "꿰뚫다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "dread",
+      "meaning": "무서워하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "foster",
+      "meaning": "육성하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "cease",
+      "meaning": "그치다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "convey",
+      "meaning": "나르다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "rescue",
+      "meaning": "구출하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "dismiss",
+      "meaning": "해산시키다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "disturb",
+      "meaning": "방해하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "incline",
+      "meaning": "내키게하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "languish",
+      "meaning": "기운이없어지다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "mold",
+      "meaning": "틀",
+      "chapter": "10과"
+    },
+    {
+      "spell": "taint",
+      "meaning": "더러움",
+      "chapter": "4과"
+    },
+    {
+      "spell": "discharge",
+      "meaning": "짐을부리다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "usher",
+      "meaning": "안내인",
+      "chapter": "8과"
+    },
+    {
+      "spell": "owe",
+      "meaning": "빚지고있다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "compose",
+      "meaning": "조립하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "refrain",
+      "meaning": "후렴",
+      "chapter": "2과"
+    },
+    {
+      "spell": "relax",
+      "meaning": "늦추다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "subscribe",
+      "meaning": "기부할것을약속하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "interfere",
+      "meaning": "방해하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "share",
+      "meaning": "몫",
+      "chapter": "5과"
+    },
+    {
+      "spell": "injure",
+      "meaning": "상처를입히다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "disperse",
+      "meaning": "흩뜨리다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "remove",
+      "meaning": "치우다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "cultivate",
+      "meaning": "경작하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "sum",
+      "meaning": "총계",
+      "chapter": "10과"
+    },
+    {
+      "spell": "throng",
+      "meaning": "군중",
+      "chapter": "2과"
+    },
+    {
+      "spell": "scatter",
+      "meaning": "흩뿌리다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "modify",
+      "meaning": "변경하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "offend",
+      "meaning": "성나게하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "associate",
+      "meaning": "연상하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "mingle",
+      "meaning": "섞다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "venture",
+      "meaning": "모험",
+      "chapter": "9과"
+    },
+    {
+      "spell": "invert",
+      "meaning": "거꾸로하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "collect",
+      "meaning": "모으다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "complain",
+      "meaning": "불평하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "spoil",
+      "meaning": "망치다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mock",
+      "meaning": "조롱하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "recall",
+      "meaning": "상기하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "reproduce",
+      "meaning": "재생하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "assemble",
+      "meaning": "모으다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "retreat",
+      "meaning": "퇴각",
+      "chapter": "8과"
+    },
+    {
+      "spell": "punish",
+      "meaning": "벌하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "settle",
+      "meaning": "놓다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "conceive",
+      "meaning": "상상하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "disclose",
+      "meaning": "드러내다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "repair",
+      "meaning": "가다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "repeat",
+      "meaning": "되풀이하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "degrade",
+      "meaning": "지위를낮추다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "amuse",
+      "meaning": "재미있게하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "obtain",
+      "meaning": "얻다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "inform",
+      "meaning": "모양이없는",
+      "chapter": "7과"
+    },
+    {
+      "spell": "curse",
+      "meaning": "저주하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "provide",
+      "meaning": "대주다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "refresh",
+      "meaning": "상쾌하게하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "manage",
+      "meaning": "이럭저럭해내다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "confess",
+      "meaning": "자백하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "stoop",
+      "meaning": "웅크리다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "profess",
+      "meaning": "공언하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "fade",
+      "meaning": "바래다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "manufacture",
+      "meaning": "제조",
+      "chapter": "10과"
+    },
+    {
+      "spell": "appeal",
+      "meaning": "애원하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "contend",
+      "meaning": "싸우다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "publish",
+      "meaning": "발표하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "interpret",
+      "meaning": "해석하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "entitle",
+      "meaning": "…의칭호를주다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "ascribe",
+      "meaning": "…에돌리다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "accommodate",
+      "meaning": "숙박시키다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "progress",
+      "meaning": "전진",
+      "chapter": "5과"
+    },
+    {
+      "spell": "overtake",
+      "meaning": "따라잡다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "assist",
+      "meaning": "거들다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "advocate",
+      "meaning": "옹호하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "attempt",
+      "meaning": "시도하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "partake",
+      "meaning": "참여하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "greet",
+      "meaning": "울다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "waste",
+      "meaning": "낭비하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "dissolve",
+      "meaning": "용해하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "oblige",
+      "meaning": "…에게강요하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "decline",
+      "meaning": "거절하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "tempt",
+      "meaning": "유혹하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "exempt",
+      "meaning": "면제하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "induce",
+      "meaning": "권유하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "oppress",
+      "meaning": "압박하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "impoverish",
+      "meaning": "가난하게하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "abuse",
+      "meaning": "남용",
+      "chapter": "3과"
+    },
+    {
+      "spell": "bother",
+      "meaning": "괴롭히다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "shrink",
+      "meaning": "오그라들다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "deliver",
+      "meaning": "배달하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "register",
+      "meaning": "등록부",
+      "chapter": "5과"
+    },
+    {
+      "spell": "coincide",
+      "meaning": "동시에일어나다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "complicate",
+      "meaning": "복잡하게하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "discern",
+      "meaning": "식별하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "dispute",
+      "meaning": "논쟁하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "remark",
+      "meaning": "…에주의하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "supplement",
+      "meaning": "추가",
+      "chapter": "10과"
+    },
+    {
+      "spell": "explode",
+      "meaning": "폭발하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "narrate",
+      "meaning": "이야기하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "administer",
+      "meaning": "관리하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "dispense",
+      "meaning": "분배하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "eliminate",
+      "meaning": "제거하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "dwell",
+      "meaning": "살다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "assume",
+      "meaning": "사실이라고보다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "capture",
+      "meaning": "붙잡다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "rear",
+      "meaning": "기르다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "confer",
+      "meaning": "수여하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "discard",
+      "meaning": "버리다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "negotiate",
+      "meaning": "협상하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "anticipate",
+      "meaning": "예기하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "contrive",
+      "meaning": "고안하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "consent",
+      "meaning": "동의하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "defy",
+      "meaning": "무시하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "summon",
+      "meaning": "소환하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "thrive",
+      "meaning": "번영하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "subdue",
+      "meaning": "정복하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "bloom",
+      "meaning": "꽃",
+      "chapter": "4과"
+    },
+    {
+      "spell": "discriminate",
+      "meaning": "구별하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "sustain",
+      "meaning": "떠받치다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "transact",
+      "meaning": "집행하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "support",
+      "meaning": "받치다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "cling",
+      "meaning": "달라붙다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "entrust",
+      "meaning": "맡기다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "transmit",
+      "meaning": "부치다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "infect",
+      "meaning": "병독을퍼뜨리다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "wrap",
+      "meaning": "싸다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "inflict",
+      "meaning": "주다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "withstand",
+      "meaning": "저항하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "withhold",
+      "meaning": "억누르다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "accumulate",
+      "meaning": "모으다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "lurk",
+      "meaning": "숨다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "provoke",
+      "meaning": "화나게하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "trim",
+      "meaning": "다듬다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "confirm",
+      "meaning": "굳게하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "conform",
+      "meaning": "따르게하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "aspire",
+      "meaning": "열망하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "detach",
+      "meaning": "떼다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "rebel",
+      "meaning": "반역자",
+      "chapter": "1과"
+    },
+    {
+      "spell": "repel",
+      "meaning": "쫓아버리다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "annihilate",
+      "meaning": "전멸시키다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sting",
+      "meaning": "찌르다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "allure",
+      "meaning": "꾀다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "console",
+      "meaning": "콘솔",
+      "chapter": "6과"
+    },
+    {
+      "spell": "surmount",
+      "meaning": "오르다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "treat",
+      "meaning": "대우하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "swell",
+      "meaning": "부풀다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "sneer",
+      "meaning": "비웃다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "subside",
+      "meaning": "가라앉다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "seize",
+      "meaning": "잡다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "abandon",
+      "meaning": "버리다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "deal",
+      "meaning": "나누어주다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "steer",
+      "meaning": "수송아지",
+      "chapter": "8과"
+    },
+    {
+      "spell": "depress",
+      "meaning": "낙담시키다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "inhabit",
+      "meaning": "…에살다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "grant",
+      "meaning": "주다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "attract",
+      "meaning": "끌어당기다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "introduce",
+      "meaning": "소개하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "portray",
+      "meaning": "그리다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "guarantee",
+      "meaning": "보증",
+      "chapter": "2과"
+    },
+    {
+      "spell": "presume",
+      "meaning": "가정하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "resume",
+      "meaning": "다시시작하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "lure",
+      "meaning": "매혹물",
+      "chapter": "2과"
+    },
+    {
+      "spell": "award",
+      "meaning": "수여하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "multiply",
+      "meaning": "증가시키다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "grudge",
+      "meaning": "주기싫어하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "stroll",
+      "meaning": "한가로이거닐다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "execute",
+      "meaning": "실행하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "proceed",
+      "meaning": "나아가다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "recede",
+      "meaning": "반환하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "ponder",
+      "meaning": "숙고하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "scratch",
+      "meaning": "할퀴다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "embrace",
+      "meaning": "포옹하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "reckon",
+      "meaning": "세다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "throb",
+      "meaning": "고동치다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "salute",
+      "meaning": "경례하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "lessen",
+      "meaning": "적게하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "beguile",
+      "meaning": "속이다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "bid",
+      "meaning": "명령하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "reap",
+      "meaning": "베어내다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "concede",
+      "meaning": "인정하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "lade",
+      "meaning": "싣다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "deplore",
+      "meaning": "비탄하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "precede",
+      "meaning": "앞서다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "banish",
+      "meaning": "추방하다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "stifle",
+      "meaning": "…의숨을막다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "abound",
+      "meaning": "많이있다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "deposit",
+      "meaning": "두다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "sob",
+      "meaning": "흐느껴울다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "withdraw",
+      "meaning": "빼다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "reprove",
+      "meaning": "꾸짖다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "ally",
+      "meaning": "동맹시키다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "renounce",
+      "meaning": "포기하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "allot",
+      "meaning": "할당하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "assign",
+      "meaning": "할당하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "vow",
+      "meaning": "맹세",
+      "chapter": "2과"
+    },
+    {
+      "spell": "vouch",
+      "meaning": "보증하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "carve",
+      "meaning": "베다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "verify",
+      "meaning": "증명하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ordain",
+      "meaning": "정하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "beckon",
+      "meaning": "손짓으로부르다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "collapse",
+      "meaning": "무너지다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "mar",
+      "meaning": "흠가게하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "pant",
+      "meaning": "헐떡거리다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "warrant",
+      "meaning": "정당한이유",
+      "chapter": "2과"
+    },
+    {
+      "spell": "kindle",
+      "meaning": "낳다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "uphold",
+      "meaning": "지지하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "disdain",
+      "meaning": "경멸하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "prescribe",
+      "meaning": "규정하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "accompany",
+      "meaning": "동반하다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "divide",
+      "meaning": "나누다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "paralyze",
+      "meaning": "마비시키다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "contain",
+      "meaning": "담고있다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "endow",
+      "meaning": "재산을증여하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "guard",
+      "meaning": "지키다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "crash",
+      "meaning": "와르르",
+      "chapter": "4과"
+    },
+    {
+      "spell": "burst",
+      "meaning": "파열하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "worry",
+      "meaning": "걱정시키다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "military",
+      "meaning": "A군의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "delicious",
+      "meaning": "맛좋은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "manifest",
+      "meaning": "명백한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "voluntary",
+      "meaning": "자발적인",
+      "chapter": "7과"
+    },
+    {
+      "spell": "superfluous",
+      "meaning": "여분의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "eminent",
+      "meaning": "높은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "contrary",
+      "meaning": "반대의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "fertile",
+      "meaning": "기름진",
+      "chapter": "8과"
+    },
+    {
+      "spell": "intimate",
+      "meaning": "암시하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "primary",
+      "meaning": "첫째의",
+      "chapter": "2과"
+    },
+    {
+      "spell": "disinterested",
+      "meaning": "사심없는",
+      "chapter": "1과"
+    },
+    {
+      "spell": "similar",
+      "meaning": "비슷한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "artificial",
+      "meaning": "인조의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "wretched",
+      "meaning": "비참한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "sovereign",
+      "meaning": "주권자",
+      "chapter": "10과"
+    },
+    {
+      "spell": "staple",
+      "meaning": "∪자못",
+      "chapter": "1과"
+    },
+    {
+      "spell": "vital",
+      "meaning": "생명의",
+      "chapter": "8과"
+    },
+    {
+      "spell": "moderate",
+      "meaning": "절제있는",
+      "chapter": "3과"
+    },
+    {
+      "spell": "casual",
+      "meaning": "우연의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "stable",
+      "meaning": "마구간",
+      "chapter": "5과"
+    },
+    {
+      "spell": "royal",
+      "meaning": "왕의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "tiny",
+      "meaning": "작은",
+      "chapter": "4과"
+    },
+    {
+      "spell": "tidy",
+      "meaning": "단정한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "acute",
+      "meaning": "격렬한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "subjective",
+      "meaning": "주관의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "ripe",
+      "meaning": "익은",
+      "chapter": "6과"
+    },
+    {
+      "spell": "arctic",
+      "meaning": "북극의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "parallel",
+      "meaning": "평행의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "brief",
+      "meaning": "잠시의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "slight",
+      "meaning": "근소한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "inevitable",
+      "meaning": "피할수없는",
+      "chapter": "9과"
+    },
+    {
+      "spell": "perpetual",
+      "meaning": "영속하는",
+      "chapter": "8과"
+    },
+    {
+      "spell": "tremendous",
+      "meaning": "거대한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "innocent",
+      "meaning": "순진한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "divine",
+      "meaning": "신의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "domestic",
+      "meaning": "가정의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "huge",
+      "meaning": "거대한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "colloquial",
+      "meaning": "구어의",
+      "chapter": "1과"
+    },
+    {
+      "spell": "vacant",
+      "meaning": "빈",
+      "chapter": "9과"
+    },
+    {
+      "spell": "reluctant",
+      "meaning": "마음내키지않는",
+      "chapter": "4과"
+    },
+    {
+      "spell": "awkward",
+      "meaning": "어색한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "scanty",
+      "meaning": "부족한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "extravagant",
+      "meaning": "낭비하는",
+      "chapter": "7과"
+    },
+    {
+      "spell": "shy",
+      "meaning": "vt.던지다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "frank",
+      "meaning": "솔직한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "spontaneous",
+      "meaning": "자발적인",
+      "chapter": "10과"
+    },
+    {
+      "spell": "inferior",
+      "meaning": "하위의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "capable",
+      "meaning": "유능한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "keen",
+      "meaning": "날카로운",
+      "chapter": "1과"
+    },
+    {
+      "spell": "exact",
+      "meaning": "정확한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "dumb",
+      "meaning": "말못하는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "fierce",
+      "meaning": "사나운",
+      "chapter": "6과"
+    },
+    {
+      "spell": "faint",
+      "meaning": "희미한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "affirmative",
+      "meaning": "긍정의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "firm",
+      "meaning": "굳은",
+      "chapter": "6과"
+    },
+    {
+      "spell": "diverse",
+      "meaning": "다른종류의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "plain",
+      "meaning": "한탄하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "stupid",
+      "meaning": "어리석은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "fatal",
+      "meaning": "치명적인",
+      "chapter": "4과"
+    },
+    {
+      "spell": "fluent",
+      "meaning": "유창하게말하는",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mechanical",
+      "meaning": "기계의",
+      "chapter": "10과"
+    },
+    {
+      "spell": "elastic",
+      "meaning": "탄력있는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "upright",
+      "meaning": "똑바로선",
+      "chapter": "5과"
+    },
+    {
+      "spell": "permanent",
+      "meaning": "영속하는",
+      "chapter": "4과"
+    },
+    {
+      "spell": "hideous",
+      "meaning": "끔찍한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "uniform",
+      "meaning": "한결같은",
+      "chapter": "2과"
+    },
+    {
+      "spell": "ardent",
+      "meaning": "불타는듯한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "liable",
+      "meaning": "책임져야할",
+      "chapter": "10과"
+    },
+    {
+      "spell": "discreet",
+      "meaning": "사려있는",
+      "chapter": "4과"
+    },
+    {
+      "spell": "informal",
+      "meaning": "형식을따지지않는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "daring",
+      "meaning": "모험적인기상",
+      "chapter": "9과"
+    },
+    {
+      "spell": "aggressive",
+      "meaning": "침략적인",
+      "chapter": "4과"
+    },
+    {
+      "spell": "invalid",
+      "meaning": "타당하지않은",
+      "chapter": "5과"
+    },
+    {
+      "spell": "holy",
+      "meaning": "신성한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "sensitive",
+      "meaning": "민감한",
+      "chapter": "3과"
+    },
+    {
+      "spell": "human",
+      "meaning": "인간의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "rapid",
+      "meaning": "빠른",
+      "chapter": "8과"
+    },
+    {
+      "spell": "inborn",
+      "meaning": "타고난",
+      "chapter": "6과"
+    },
+    {
+      "spell": "vain",
+      "meaning": "헛된",
+      "chapter": "10과"
+    },
+    {
+      "spell": "timely",
+      "meaning": "때에알맞은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "prompt",
+      "meaning": "즉석의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "clumsy",
+      "meaning": "꼴사나운",
+      "chapter": "9과"
+    },
+    {
+      "spell": "imperial",
+      "meaning": "제국의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "atomic",
+      "meaning": "원자의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "intent",
+      "meaning": "집중된",
+      "chapter": "6과"
+    },
+    {
+      "spell": "private",
+      "meaning": "사적인",
+      "chapter": "6과"
+    },
+    {
+      "spell": "positive",
+      "meaning": "명확한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "lofty",
+      "meaning": "매우높은",
+      "chapter": "6과"
+    },
+    {
+      "spell": "mental",
+      "meaning": "턱의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "official",
+      "meaning": "공무원",
+      "chapter": "5과"
+    },
+    {
+      "spell": "humble",
+      "meaning": "겸손한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "harsh",
+      "meaning": "거친",
+      "chapter": "10과"
+    },
+    {
+      "spell": "liberal",
+      "meaning": "자유주의의",
+      "chapter": "7과"
+    },
+    {
+      "spell": "perpendicular",
+      "meaning": "수직의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "technical",
+      "meaning": "기술의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "prime",
+      "meaning": "준비시키다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "partial",
+      "meaning": "일부분의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "stout",
+      "meaning": "뚱뚱한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "civil",
+      "meaning": "시민의",
+      "chapter": "4과"
+    },
+    {
+      "spell": "exquisite",
+      "meaning": "아주아름다운",
+      "chapter": "10과"
+    },
+    {
+      "spell": "local",
+      "meaning": "공간의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "principal",
+      "meaning": "주요한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "sinister",
+      "meaning": "불길한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "silly",
+      "meaning": "어리석은",
+      "chapter": "1과"
+    },
+    {
+      "spell": "reverse",
+      "meaning": "역",
+      "chapter": "8과"
+    },
+    {
+      "spell": "slender",
+      "meaning": "호리호리한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "strenuous",
+      "meaning": "분투적인",
+      "chapter": "6과"
+    },
+    {
+      "spell": "futile",
+      "meaning": "헛된",
+      "chapter": "9과"
+    },
+    {
+      "spell": "raw",
+      "meaning": "날것의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "wicked",
+      "meaning": "심술궂은",
+      "chapter": "1과"
+    },
+    {
+      "spell": "sheer",
+      "meaning": "침로에서빗나가다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "relative",
+      "meaning": "친척",
+      "chapter": "2과"
+    },
+    {
+      "spell": "hardy",
+      "meaning": "단련된",
+      "chapter": "6과"
+    },
+    {
+      "spell": "solid",
+      "meaning": "고체의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "sly",
+      "meaning": "교활한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sober",
+      "meaning": "술취하지않은",
+      "chapter": "8과"
+    },
+    {
+      "spell": "stiff",
+      "meaning": "뻣뻣한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "tame",
+      "meaning": "길든",
+      "chapter": "4과"
+    },
+    {
+      "spell": "destitute",
+      "meaning": "P결핍한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "tough",
+      "meaning": "질긴",
+      "chapter": "4과"
+    },
+    {
+      "spell": "steady",
+      "meaning": "확고한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "drastic",
+      "meaning": "격렬한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "vertical",
+      "meaning": "수직의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "vile",
+      "meaning": "비열한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "alert",
+      "meaning": "방심하지않는",
+      "chapter": "8과"
+    },
+    {
+      "spell": "indebted",
+      "meaning": "부채가있는",
+      "chapter": "3과"
+    },
+    {
+      "spell": "approximate",
+      "meaning": "가까워지다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "smart",
+      "meaning": "눈치빠른",
+      "chapter": "7과"
+    },
+    {
+      "spell": "astray",
+      "meaning": "길을잃고",
+      "chapter": "3과"
+    },
+    {
+      "spell": "compulsory",
+      "meaning": "강제적인",
+      "chapter": "10과"
+    },
+    {
+      "spell": "naughty",
+      "meaning": "개구쟁이의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "notable",
+      "meaning": "주목할만한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "potent",
+      "meaning": "강력한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "dismal",
+      "meaning": "음침한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "eccentric",
+      "meaning": "별난",
+      "chapter": "2과"
+    },
+    {
+      "spell": "predominant",
+      "meaning": "우세한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "serene",
+      "meaning": "고요한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "petty",
+      "meaning": "작은",
+      "chapter": "5과"
+    },
+    {
+      "spell": "prominent",
+      "meaning": "현저한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "steep",
+      "meaning": "가파른",
+      "chapter": "10과"
+    },
+    {
+      "spell": "prodigal",
+      "meaning": "낭비하는",
+      "chapter": "6과"
+    },
+    {
+      "spell": "prudent",
+      "meaning": "신중한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "sullen",
+      "meaning": "부루퉁한",
+      "chapter": "9과"
+    },
+    {
+      "spell": "righteous",
+      "meaning": "바른",
+      "chapter": "4과"
+    },
+    {
+      "spell": "sterile",
+      "meaning": "불모의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "transient",
+      "meaning": "덧없는",
+      "chapter": "2과"
+    },
+    {
+      "spell": "rigid",
+      "meaning": "단단한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "senior",
+      "meaning": "손위의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "quaint",
+      "meaning": "기묘한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "sagacious",
+      "meaning": "현명한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "unprecedented",
+      "meaning": "전례가없는",
+      "chapter": "5과"
+    },
+    {
+      "spell": "akin",
+      "meaning": "혈족의",
+      "chapter": "8과"
+    },
+    {
+      "spell": "cordial",
+      "meaning": "마음에서우러난",
+      "chapter": "6과"
+    },
+    {
+      "spell": "coarse",
+      "meaning": "조잡한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "venerable",
+      "meaning": "존경할만한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "compatible",
+      "meaning": "P양립할수있는",
+      "chapter": "1과"
+    },
+    {
+      "spell": "weary",
+      "meaning": "피곤한",
+      "chapter": "5과"
+    },
+    {
+      "spell": "complacent",
+      "meaning": "마음에흡족한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "corrupt",
+      "meaning": "타락한",
+      "chapter": "4과"
+    },
+    {
+      "spell": "wholesome",
+      "meaning": "건전한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "credulous",
+      "meaning": "잘믿는",
+      "chapter": "7과"
+    },
+    {
+      "spell": "abrupt",
+      "meaning": "갑작스러운",
+      "chapter": "2과"
+    },
+    {
+      "spell": "alien",
+      "meaning": "외국의",
+      "chapter": "3과"
+    },
+    {
+      "spell": "shabby",
+      "meaning": "초라한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "dreary",
+      "meaning": "적적한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "outstanding",
+      "meaning": "눈에띄는",
+      "chapter": "4과"
+    },
+    {
+      "spell": "erroneous",
+      "meaning": "잘못된",
+      "chapter": "7과"
+    },
+    {
+      "spell": "forlorn",
+      "meaning": "버림받은",
+      "chapter": "4과"
+    },
+    {
+      "spell": "gorgeous",
+      "meaning": "호화스러운",
+      "chapter": "5과"
+    },
+    {
+      "spell": "impudent",
+      "meaning": "뻔뻔스러운",
+      "chapter": "1과"
+    },
+    {
+      "spell": "pertinent",
+      "meaning": "적절한",
+      "chapter": "8과"
+    },
+    {
+      "spell": "frivolous",
+      "meaning": "천박한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "genial",
+      "meaning": "턱의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "indolent",
+      "meaning": "게으른",
+      "chapter": "8과"
+    },
+    {
+      "spell": "ruthless",
+      "meaning": "무자비한",
+      "chapter": "1과"
+    },
+    {
+      "spell": "myriad",
+      "meaning": "무수",
+      "chapter": "7과"
+    },
+    {
+      "spell": "wistful",
+      "meaning": "탐내는",
+      "chapter": "8과"
+    },
+    {
+      "spell": "air",
+      "meaning": "공기",
+      "chapter": "5과"
+    },
+    {
+      "spell": "art",
+      "meaning": "예술",
+      "chapter": "5과"
+    },
+    {
+      "spell": "promise",
+      "meaning": "약속",
+      "chapter": "10과"
+    },
+    {
+      "spell": "sentence",
+      "meaning": "문장",
+      "chapter": "5과"
+    },
+    {
+      "spell": "scale",
+      "meaning": "비늘",
+      "chapter": "6과"
+    },
+    {
+      "spell": "society",
+      "meaning": "회",
+      "chapter": "3과"
+    },
+    {
+      "spell": "tongue",
+      "meaning": "혀",
+      "chapter": "4과"
+    },
+    {
+      "spell": "turn",
+      "meaning": "돌리다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "regard",
+      "meaning": "…으로여기다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "nature",
+      "meaning": "자연",
+      "chapter": "4과"
+    },
+    {
+      "spell": "order",
+      "meaning": "순서",
+      "chapter": "1과"
+    },
+    {
+      "spell": "calling",
+      "meaning": "천직",
+      "chapter": "1과"
+    },
+    {
+      "spell": "right",
+      "meaning": "바른",
+      "chapter": "3과"
+    },
+    {
+      "spell": "reason",
+      "meaning": "이유",
+      "chapter": "7과"
+    },
+    {
+      "spell": "respect",
+      "meaning": "존경",
+      "chapter": "1과"
+    },
+    {
+      "spell": "sport",
+      "meaning": "스포츠",
+      "chapter": "6과"
+    },
+    {
+      "spell": "plant",
+      "meaning": "식물",
+      "chapter": "3과"
+    },
+    {
+      "spell": "pass",
+      "meaning": "지나가다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "passage",
+      "meaning": "일절",
+      "chapter": "9과"
+    },
+    {
+      "spell": "gift",
+      "meaning": "선물",
+      "chapter": "7과"
+    },
+    {
+      "spell": "image",
+      "meaning": "상",
+      "chapter": "1과"
+    },
+    {
+      "spell": "world",
+      "meaning": "세계",
+      "chapter": "1과"
+    },
+    {
+      "spell": "state",
+      "meaning": "상태",
+      "chapter": "5과"
+    },
+    {
+      "spell": "notice",
+      "meaning": "통지",
+      "chapter": "2과"
+    },
+    {
+      "spell": "part",
+      "meaning": "부분",
+      "chapter": "9과"
+    },
+    {
+      "spell": "party",
+      "meaning": "파티",
+      "chapter": "8과"
+    },
+    {
+      "spell": "press",
+      "meaning": "내리누르다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "reach",
+      "meaning": "…에도착하다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "case",
+      "meaning": "경우",
+      "chapter": "5과"
+    },
+    {
+      "spell": "event",
+      "meaning": "사건",
+      "chapter": "2과"
+    },
+    {
+      "spell": "end",
+      "meaning": "끝",
+      "chapter": "7과"
+    },
+    {
+      "spell": "nobody",
+      "meaning": "아무도…않다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "article",
+      "meaning": "기사",
+      "chapter": "6과"
+    },
+    {
+      "spell": "match",
+      "meaning": "성냥",
+      "chapter": "10과"
+    },
+    {
+      "spell": "hand",
+      "meaning": "손",
+      "chapter": "8과"
+    },
+    {
+      "spell": "might",
+      "meaning": "…할지도모르다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "life",
+      "meaning": "생명",
+      "chapter": "4과"
+    },
+    {
+      "spell": "lot",
+      "meaning": "제비",
+      "chapter": "10과"
+    },
+    {
+      "spell": "chance",
+      "meaning": "기회",
+      "chapter": "1과"
+    },
+    {
+      "spell": "leave",
+      "meaning": "허가",
+      "chapter": "5과"
+    },
+    {
+      "spell": "fast",
+      "meaning": "단식하다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "fancy",
+      "meaning": "공상",
+      "chapter": "3과"
+    },
+    {
+      "spell": "game",
+      "meaning": "상처입은",
+      "chapter": "4과"
+    },
+    {
+      "spell": "ground",
+      "meaning": "지면",
+      "chapter": "6과"
+    },
+    {
+      "spell": "want",
+      "meaning": "원하다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "line",
+      "meaning": "교미하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "letter",
+      "meaning": "세준사람",
+      "chapter": "9과"
+    },
+    {
+      "spell": "will",
+      "meaning": "의지",
+      "chapter": "1과"
+    },
+    {
+      "spell": "day",
+      "meaning": "하루",
+      "chapter": "8과"
+    },
+    {
+      "spell": "ball",
+      "meaning": "무도회",
+      "chapter": "5과"
+    },
+    {
+      "spell": "duty",
+      "meaning": "의무",
+      "chapter": "5과"
+    },
+    {
+      "spell": "cause",
+      "meaning": "원인",
+      "chapter": "8과"
+    },
+    {
+      "spell": "school",
+      "meaning": "떼",
+      "chapter": "8과"
+    },
+    {
+      "spell": "blow",
+      "meaning": "강타",
+      "chapter": "4과"
+    },
+    {
+      "spell": "dish",
+      "meaning": "큰접시",
+      "chapter": "9과"
+    },
+    {
+      "spell": "term",
+      "meaning": "교제관계",
+      "chapter": "4과"
+    },
+    {
+      "spell": "draw",
+      "meaning": "당기다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "study",
+      "meaning": "공부",
+      "chapter": "8과"
+    },
+    {
+      "spell": "score",
+      "meaning": "득점",
+      "chapter": "9과"
+    },
+    {
+      "spell": "picture",
+      "meaning": "그림",
+      "chapter": "8과"
+    },
+    {
+      "spell": "break",
+      "meaning": "깨다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "quarter",
+      "meaning": "4분의1",
+      "chapter": "2과"
+    },
+    {
+      "spell": "race",
+      "meaning": "인종",
+      "chapter": "5과"
+    },
+    {
+      "spell": "spell",
+      "meaning": "주문",
+      "chapter": "6과"
+    },
+    {
+      "spell": "field",
+      "meaning": "들판",
+      "chapter": "1과"
+    },
+    {
+      "spell": "exercise",
+      "meaning": "운동",
+      "chapter": "5과"
+    },
+    {
+      "spell": "train",
+      "meaning": "열차",
+      "chapter": "4과"
+    },
+    {
+      "spell": "note",
+      "meaning": "기록",
+      "chapter": "1과"
+    },
+    {
+      "spell": "drink",
+      "meaning": "마시다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "mine",
+      "meaning": "나의것",
+      "chapter": "7과"
+    },
+    {
+      "spell": "side",
+      "meaning": "쪽",
+      "chapter": "6과"
+    },
+    {
+      "spell": "toll",
+      "meaning": "울리다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "safe",
+      "meaning": "안전한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "dawn",
+      "meaning": "새벽",
+      "chapter": "1과"
+    },
+    {
+      "spell": "store",
+      "meaning": "가게",
+      "chapter": "9과"
+    },
+    {
+      "spell": "succession",
+      "meaning": "연속",
+      "chapter": "3과"
+    },
+    {
+      "spell": "stand",
+      "meaning": "서다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "fix",
+      "meaning": "고착시키다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "meet",
+      "meaning": "적당한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "observe",
+      "meaning": "알다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "consult",
+      "meaning": "의견을묻다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "head",
+      "meaning": "머리",
+      "chapter": "8과"
+    },
+    {
+      "spell": "practice",
+      "meaning": "습관",
+      "chapter": "3과"
+    },
+    {
+      "spell": "sell",
+      "meaning": "팔다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "start",
+      "meaning": "출발하다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "raise",
+      "meaning": "올리다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "help",
+      "meaning": "돕다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "object",
+      "meaning": "물건",
+      "chapter": "8과"
+    },
+    {
+      "spell": "count",
+      "meaning": "백작★comte",
+      "chapter": "1과"
+    },
+    {
+      "spell": "cost",
+      "meaning": "운임보험료포함가격",
+      "chapter": "4과"
+    },
+    {
+      "spell": "tell",
+      "meaning": "고대건축의잔존물이누적되어생기는언덕",
+      "chapter": "9과"
+    },
+    {
+      "spell": "miss",
+      "meaning": "…양",
+      "chapter": "6과"
+    },
+    {
+      "spell": "read",
+      "meaning": "READ의과거·과거분사",
+      "chapter": "9과"
+    },
+    {
+      "spell": "run",
+      "meaning": "달리다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "spring",
+      "meaning": "튀다",
+      "chapter": "10과"
+    },
+    {
+      "spell": "master",
+      "meaning": "주인",
+      "chapter": "9과"
+    },
+    {
+      "spell": "mean",
+      "meaning": "평균의",
+      "chapter": "5과"
+    },
+    {
+      "spell": "strike",
+      "meaning": "치다",
+      "chapter": "8과"
+    },
+    {
+      "spell": "move",
+      "meaning": "움직이다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "cover",
+      "meaning": "덮다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "fall",
+      "meaning": "떨어지다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "gain",
+      "meaning": "얻다",
+      "chapter": "2과"
+    },
+    {
+      "spell": "sound",
+      "meaning": "해협",
+      "chapter": "10과"
+    },
+    {
+      "spell": "till",
+      "meaning": "표석점토",
+      "chapter": "5과"
+    },
+    {
+      "spell": "sort",
+      "meaning": "종류",
+      "chapter": "7과"
+    },
+    {
+      "spell": "lose",
+      "meaning": "잃다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "steal",
+      "meaning": "훔치다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "say",
+      "meaning": "말하다",
+      "chapter": "7과"
+    },
+    {
+      "spell": "own",
+      "meaning": "자기자신의",
+      "chapter": "9과"
+    },
+    {
+      "spell": "stick",
+      "meaning": "찌르다",
+      "chapter": "9과"
+    },
+    {
+      "spell": "shoot",
+      "meaning": "쏘다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "lead",
+      "meaning": "납",
+      "chapter": "4과"
+    },
+    {
+      "spell": "occur",
+      "meaning": "일어나다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "date",
+      "meaning": "날짜",
+      "chapter": "7과"
+    },
+    {
+      "spell": "touch",
+      "meaning": "…에대다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "answer",
+      "meaning": "대답",
+      "chapter": "1과"
+    },
+    {
+      "spell": "fail",
+      "meaning": "실패하다",
+      "chapter": "5과"
+    },
+    {
+      "spell": "hold",
+      "meaning": "배의짐칸",
+      "chapter": "5과"
+    },
+    {
+      "spell": "make",
+      "meaning": "만들다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "remain",
+      "meaning": "…대로이다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "bear",
+      "meaning": "지탱하다",
+      "chapter": "4과"
+    },
+    {
+      "spell": "follow",
+      "meaning": "…의뒤를잇다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "rest",
+      "meaning": "휴식",
+      "chapter": "2과"
+    },
+    {
+      "spell": "prize",
+      "meaning": "상",
+      "chapter": "1과"
+    },
+    {
+      "spell": "narrow",
+      "meaning": "폭이좁은",
+      "chapter": "4과"
+    },
+    {
+      "spell": "good",
+      "meaning": "좋은",
+      "chapter": "2과"
+    },
+    {
+      "spell": "minute",
+      "meaning": "분",
+      "chapter": "10과"
+    },
+    {
+      "spell": "bright",
+      "meaning": "빛나는",
+      "chapter": "8과"
+    },
+    {
+      "spell": "happy",
+      "meaning": "행복한",
+      "chapter": "7과"
+    },
+    {
+      "spell": "choice",
+      "meaning": "선택",
+      "chapter": "6과"
+    },
+    {
+      "spell": "pretty",
+      "meaning": "예쁜",
+      "chapter": "9과"
+    },
+    {
+      "spell": "short",
+      "meaning": "짧은",
+      "chapter": "7과"
+    },
+    {
+      "spell": "net",
+      "meaning": "그물",
+      "chapter": "8과"
+    },
+    {
+      "spell": "simple",
+      "meaning": "간단한",
+      "chapter": "2과"
+    },
+    {
+      "spell": "fit",
+      "meaning": "맞다",
+      "chapter": "1과"
+    },
+    {
+      "spell": "novel",
+      "meaning": "소설",
+      "chapter": "10과"
+    },
+    {
+      "spell": "due",
+      "meaning": "지불기일이된",
+      "chapter": "10과"
+    },
+    {
+      "spell": "trying",
+      "meaning": "견딜수없는",
+      "chapter": "10과"
+    },
+    {
+      "spell": "lean",
+      "meaning": "기대다",
+      "chapter": "6과"
+    },
+    {
+      "spell": "fair",
+      "meaning": "공정한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "fine",
+      "meaning": "종지",
+      "chapter": "8과"
+    },
+    {
+      "spell": "single",
+      "meaning": "A단하나의",
+      "chapter": "6과"
+    },
+    {
+      "spell": "singular",
+      "meaning": "남다른",
+      "chapter": "7과"
+    },
+    {
+      "spell": "poor",
+      "meaning": "가난한",
+      "chapter": "10과"
+    },
+    {
+      "spell": "free",
+      "meaning": "자유스러운",
+      "chapter": "10과"
+    },
+    {
+      "spell": "flat",
+      "meaning": "평평한",
+      "chapter": "6과"
+    },
+    {
+      "spell": "proof",
+      "meaning": "증명",
+      "chapter": "10과"
+    },
+    {
+      "spell": "long",
+      "meaning": "긴",
+      "chapter": "10과"
+    },
+    {
+      "spell": "last",
+      "meaning": "계속하다",
+      "chapter": "3과"
+    },
+    {
+      "spell": "well",
+      "meaning": "만족스럽게",
+      "chapter": "5과"
+    },
+    {
+      "spell": "otherwise",
+      "meaning": "만약그렇지않으면",
+      "chapter": "9과"
+    },
+    {
+      "spell": "ready",
+      "meaning": "준비가된",
+      "chapter": "10과"
+    },
+    {
+      "spell": "dead",
+      "meaning": "죽은",
+      "chapter": "6과"
+    },
+    {
+      "spell": "subject",
+      "meaning": "주제",
+      "chapter": "10과"
+    },
+    {
+      "spell": "practically",
+      "meaning": "실지로",
+      "chapter": "7과"
+    },
+    {
+      "spell": "altogether",
+      "meaning": "전적으로",
+      "chapter": "1과"
+    },
+    {
+      "spell": "home",
+      "meaning": "가정",
+      "chapter": "10과"
+    },
+    {
+      "spell": "but",
+      "meaning": "그러나",
+      "chapter": "1과"
+    },
+    {
+      "spell": "over",
+      "meaning": "…위쪽에",
+      "chapter": "5과"
+    },
+    {
+      "spell": "above",
+      "meaning": "…보다위에",
+      "chapter": "8과"
+    },
+    {
+      "spell": "save",
+      "meaning": "…을제외하고는",
+      "chapter": "8과"
+    },
+    {
+      "spell": "equal",
+      "meaning": "같은",
+      "chapter": "8과"
+    },
+    {
+      "spell": "despite",
+      "meaning": "…에도불구하고",
+      "chapter": "3과"
+    }
+  ]
+}

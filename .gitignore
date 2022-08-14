@@ -129,5 +129,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# env for local test
 env.json
+
 .vscode/settings.json
+
+# temp data for local dynamodb
+provision/dynamodb-local/docker
