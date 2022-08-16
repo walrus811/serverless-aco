@@ -14,7 +14,7 @@
     "prettier": "^2.7.1"
   },
   "scripts": {
-    "i:env": "npx cpy env_default.json . --rename=env.json",
+    "i:template": "npx cpy template_default.yaml . --rename=template.yaml",
     "t:all": "npx mocha './test/**/*.test.js'",
     "t:grep": "npx mocha './test/**/*.test.js' -g"
   }

@@ -129,8 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# env for local test
-env.json
+# template for local test
+template.yaml
 
 .vscode/settings.json
 
