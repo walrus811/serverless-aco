@@ -27,9 +27,6 @@ Globals:
         AWS_S3_BUCKET: <AWS_S3_BUCKET>
         AWS_DYNAMODB_TABLE_NAME: <AWS_DYNAMODB_TABLE_NAME>
         AWS_DYNAMODB_END_POINT: <AWS_DYNAMODB_END_POINT>
-        LOCAL_DYNAMODB_END_POINT: http://localhost:8000
-        LOCAL_ACCESSKEY_ID: <AWS_ACCESSKEY_ID>
-        LOCAL_SECRET_ACCESS_KEY: <AWS_SECRET_ACCESS_KEY>
 
 # AWS CloudFormation과 AWS SAM의 리소스들이 들어감.
 # AWS CloudFormation에는 모든 AWS의 리소스를 사용할 수 있는 것 같고
