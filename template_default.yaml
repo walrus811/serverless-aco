@@ -47,20 +47,160 @@ Resources:
         - nodejs16.x
     Metadata:
       BuildMethod: nodejs16.x
+  GetStudentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: get-student.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student
+            Method: get
+  PostStudentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: post-student.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student
+            Method: post
+  GetStudentByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: get-student-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student/{id}
+            Method: get
+  PutStudentByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: put-student-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student/{id}
+            Method: put
+  DeleteStudentByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: delete-student-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student/{id}
+            Method: delete
+  PostStudentQueryFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/student
+      Handler: post-student-query.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /student/query
+            Method: post
   GetSchoolFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: src/handlers/
+      CodeUri: src/resources/school
       Handler: get-school.handler
       Layers:
         - !Ref CoreLayer
       Events:
-        PostPetApi:
+        Api:
           Type: Api
           Properties:
             RestApiId: !Ref ApiGateway
             Path: /school
             Method: get
+  PostSchoolFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/school
+      Handler: post-school.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /school
+            Method: post
+  GetSchoolByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/school
+      Handler: get-school-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /school/{id}
+            Method: get
+  PutSchoolByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/school
+      Handler: put-school-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /school/{id}
+            Method: put
+  DeleteSchoolByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/resources/school
+      Handler: delete-school-by-id.handler
+      Layers:
+        - !Ref CoreLayer
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /school/{id}
+            Method: delete
 #Paramters 섹션도 있다.
 # Resources나 Outputs에서 참조할 수 있다고...
 # `sam deploy`시 --parameter-overrides를 쓰면...
