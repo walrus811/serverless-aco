@@ -1,0 +1,6 @@
+{
+    "AWS_REGION" : "ap-northeast-2",
+    "AWS_DYNAMODB_END_POINT" : "http://localhost:8000",
+    "AWS_ACCESSKEY_ID" : "DUMMY",
+    "AWS_SECRET_ACCESS_KEY" : "DUMMY"
+}

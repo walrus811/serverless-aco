@@ -3,17 +3,17 @@ const { DynamoDBDocument } = require("@aws-sdk/lib-dynamodb");
 
 const {
   AWS_REGION,
-  LOCAL_DYNAMODB_END_POINT,
-  LOCAL_ACCESSKEY_ID,
-  LOCAL_SECRET_ACCESS_KEY,
-} = require("../../env.json").Parameters;
+  AWS_DYNAMODB_END_POINT,
+  AWS_ACCESSKEY_ID,
+  AWS_SECRET_ACCESS_KEY,
+} = require("./input/client.json");
 
 const ddbClient = new DynamoDBClient({
   region: AWS_REGION,
-  endpoint: LOCAL_DYNAMODB_END_POINT,
+  endpoint: AWS_DYNAMODB_END_POINT,
   credentials: {
-    accessKeyId: LOCAL_ACCESSKEY_ID,
-    secretAccessKey: LOCAL_SECRET_ACCESS_KEY,
+    accessKeyId: AWS_ACCESSKEY_ID,
+    secretAccessKey: AWS_SECRET_ACCESS_KEY,
   },
 });
 
