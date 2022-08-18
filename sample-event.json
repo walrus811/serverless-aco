@@ -1,0 +1,53 @@
+{
+    "body": null,
+    "headers": {
+      "Accept": "*/*",
+      "Host": "localhost:3000",
+      "User-Agent": "curl/7.79.1",
+      "X-Forwarded-Port": "3000",
+      "X-Forwarded-Proto": "http"
+    },
+    "httpMethod": "GET",
+    "isBase64Encoded": false,
+    "multiValueHeaders": {
+      "Accept": [ "*/*" ],
+      "Host": [ "localhost:3000" ],
+      "User-Agent": [ "curl/7.79.1" ],
+      "X-Forwarded-Port": [ "3000" ],
+      "X-Forwarded-Proto": [ "http" ]
+    },
+    "multiValueQueryStringParameters": { "abc": [ "123" ], "t": [ "1", "2" ] },
+    "path": "/school",
+    "pathParameters": null,
+    "queryStringParameters": { "abc": "123", "t": "2" },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "1234567890",
+      "domainName": "localhost:3000",
+      "extendedRequestId": null,
+      "httpMethod": "GET",
+      "identity": {
+        "accountId": null,
+        "apiKey": null,
+        "caller": null,
+        "cognitoAuthenticationProvider": null,
+        "cognitoAuthenticationType": null,
+        "cognitoIdentityPoolId": null,
+        "sourceIp": "127.0.0.1",
+        "user": null,
+        "userAgent": "Custom User Agent String",
+        "userArn": null
+      },
+      "path": "/school",
+      "protocol": "HTTP/1.1",
+      "requestId": "7b2083a3-9bbc-40db-9f23-796c0a63fbc3",
+      "requestTime": "18/Aug/2022:12:39:12 +0000",
+      "requestTimeEpoch": 1660826352,
+      "resourceId": "123456",
+      "resourcePath": "/school",
+      "stage": "prod"
+    },
+    "resource": "/school",
+    "stageVariables": null,
+    "version": "1.0"
+  }
