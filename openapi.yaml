@@ -18,7 +18,6 @@ paths:
       parameters:
         - $ref: "#/components/parameters/LimitParam"
         - $ref: "#/components/parameters/LastIdParam"
-        - $ref: "#/components/parameters/SortByParam"
         - $ref: "#/components/parameters/AscendParam"
       responses:
         "200":
@@ -103,7 +102,6 @@ paths:
         - $ref: "#/components/parameters/IdParam"
         - $ref: "#/components/parameters/LimitParam"
         - $ref: "#/components/parameters/LastIdParam"
-        - $ref: "#/components/parameters/SortByParam"
         - $ref: "#/components/parameters/AscendParam"
         - $ref: "#/components/parameters/FullParam"
       responses:
@@ -179,7 +177,6 @@ paths:
       parameters:
         - $ref: "#/components/parameters/LimitParam"
         - $ref: "#/components/parameters/LastIdParam"
-        - $ref: "#/components/parameters/SortByParam"
         - $ref: "#/components/parameters/AscendParam"
         - $ref: "#/components/parameters/FullParam"
       responses:
@@ -268,7 +265,6 @@ paths:
       parameters:
         - $ref: "#/components/parameters/LimitParam"
         - $ref: "#/components/parameters/LastIdParam"
-        - $ref: "#/components/parameters/SortByParam"
         - $ref: "#/components/parameters/AscendParam"
       responses:
         "200":
@@ -352,12 +348,6 @@ components:
       schema:
         $ref: "#/components/schemas/LastIdParamValue"
       description: last Id read(Keyset Pagination)
-    SortByParam:
-      in: query
-      name: sortBy
-      schema:
-        $ref: "#/components/schemas/SortByParamValue"
-      description: sort criterion property
     AscendParam:
       in: query
       name: ascend
@@ -654,16 +644,10 @@ components:
     LastIdParamValue:
       type: string
       description: last Id read(Keyset Pagination)
-    SortByParamValue:
-      type: array
-      items:
-        type: string
-      description: sort criterion property
     AscendParamValue:
-      type: integer
-      enum: [1, -1]
-      default: 1
-      description: sort order(1 - asc, -1 - desc)
+      type: boolean
+      default: true
+      description: sort ascending
     FullParamValue:
       type: boolean
       default: false
@@ -684,8 +668,6 @@ components:
           $ref: "#/components/schemas/LimitParamValue"
         lastId:
           $ref: "#/components/schemas/LastIdParamValue"
-        sortBy:
-          $ref: "#/components/schemas/SortByParamValue"
         ascend:
           $ref: "#/components/schemas/AscendParamValue"
     Student:
