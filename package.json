@@ -3,9 +3,6 @@
   "description": "serverless-aco",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "aws-sdk": "^2.799.0"
-  },
   "devDependencies": {
     "chai": "^4.3.6",
     "cpy-cli": "^4.1.0",

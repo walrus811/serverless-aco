@@ -136,3 +136,5 @@ template.yaml
 
 # temp data for local dynamodb
 provision/dynamodb-local/docker
+
+.DS_Store
