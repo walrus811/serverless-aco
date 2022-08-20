@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.102",
     "chai": "^4.3.6",
     "cpy-cli": "^4.1.0",
     "eslint": "^8.22.0",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "i:template": "npx cpy template_default.yaml . --rename=template.yaml",
-    "i:layer" : "ln -sf ./layers/coreLayer/nodejs /opt/nodejs",
+    "i:layer": "ln -sf ./layers/coreLayer/nodejs /opt/nodejs",
     "t:all": "npx mocha './test/**/*.test.js'",
     "t:grep": "npx mocha './test/**/*.test.js' -g"
   },
