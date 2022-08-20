@@ -1,41 +1,37 @@
 const _ = require("lodash");
-const {
-  parseQueryParam,
-  parseDynamodbKey,
-  getId,
-} = require("/opt/nodejs/util");
-const { PARTIAL_SCHOOL_EXP } = require("/opt/nodejs/projectionExp");
-const getSchool = require("/opt/nodejs/getSchool");
+const { parseQueryParam, createDefaultResponse } = require("/opt/nodejs/util");
+const { getSchool } = require("/opt/nodejs/school");
 
+/**
+ * @param  {import("aws-lambda").APIGatewayProxyEvent} event
+ * @returns {Promise<import("aws-lambda").APIGatewayProxyResult>}
+ */
 exports.handler = async (event) => {
   const queryParam = parseQueryParam(event);
-  const lastIdTuple = parseDynamodbKey(queryParam.lastId, "School");
 
-  try {
+  try
+  {
     const result = await getSchool(
-      process.env.AWS_DYNAMODB_TABLE_NAME,
       queryParam.limit,
-      lastIdTuple,
+      queryParam.lastId,
       queryParam.ascend,
-      queryParam.full,
-      PARTIAL_SCHOOL_EXP
+      queryParam.full
     );
 
-    const response = {
-      statusCode: 200,
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: {
-        result: _.map(result.Items, function (item) {
-          return {
-            id: getId(item),
-            name: item.SK,
-          };
-        }),
-        lastId: result.LastEvaluatedKey ? getId(result.LastEvaluatedKey) : null,
-      },
-    };
+    const responseBody = JSON.stringify({
+      result: _.map(result.Items, function (item) {
+        return {
+          id: item.SK,
+          name: item.SK,
+        };
+      }),
+      lastId: result.LastEvaluatedKey ? result.LastEvaluatedKey.SK : null,
+    });
+
+    const response = createDefaultResponse(
+      result.$metadata.httpStatusCode ?? 500,
+      responseBody
+    );
 
     console.info(
       `response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`
@@ -43,6 +39,12 @@ exports.handler = async (event) => {
 
     return response;
   } catch (error) {
-    console.error( JSON.stringify( error ) );
+    console.error(`error occurred, body: ${JSON.stringify(error)}`);
+
+    const response = createDefaultResponse(
+      error.$metadata.httpStatusCode ?? 500,
+      ""
+    );
+    return response;
   }
 };
