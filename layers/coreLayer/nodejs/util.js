@@ -1,38 +1,71 @@
-function parseQueryParam(event) {
-  if (!event.queryStringParameters) return {};
+const _ = require("lodash");
+const { DEFAULT_HEADER } = require("./contants");
 
-  const limitValue = parseInt(event.queryStringParameters.limit);
+/**
+ * @typedef {object} QueryParam
+ * @property {number | undefined} limit
+ * @property {string | undefined} lastId
+ * @property {boolean} ascend
+ * @property {boolean} full
+ */
+
+/**
+ * @description parse the AWS API Gateway Proxt Event's query strings
+ * @param  {import("aws-lambda").APIGatewayProxyEvent} event
+ * @returns {QueryParam}
+ */
+function parseQueryParam(event) {
+  if (!event.queryStringParameters)
+    return {
+      limit: undefined,
+      lastId: undefined,
+      ascend: false,
+      full: false,
+    };
+
+  const limitValue = _.parseInt(event.queryStringParameters.limit ?? "");
   return {
     limit: limitValue > 0 ? limitValue : undefined,
-    lastId: decodeURIComponent(event.queryStringParameters.lastId),
+    lastId: decodeURIComponent(event.queryStringParameters.lastId ?? ""),
     ascend: event.queryStringParameters?.ascend === "true",
     full: event.queryStringParameters.full === "true",
   };
 }
 
-function parseDynamodbKey(keyString, defaultPK, sep = "|") {
-  const failedReturnValue = [defaultPK, null];
-  if (!keyString || !defaultPK) return failedReturnValue;
-
-  const firstSepIndex = keyString.indexOf(sep);
-  if (firstSepIndex === -1) return failedReturnValue;
-
-  const fromPK = keyString.substring(0, firstSepIndex);
-  const sk = keyString.substring(firstSepIndex + 1);
-
-  if (defaultPK !== fromPK) return failedReturnValue;
-
-  return [fromPK, sk];
+/**
+ *
+ * @param {Object.<string, boolean | number | string> | undefined} headers
+ * @param {Object.<string, Array<boolean | number | string>> | undefined} multiValueHeaders
+ * @param {boolean | undefined} isBase64Encoded
+ * @param {number} statusCode
+ * @param {string} body
+ * @returns {import("aws-lambda").APIGatewayProxyResult}
+ */
+function createResponse(
+  headers,
+  multiValueHeaders,
+  isBase64Encoded,
+  statusCode,
+  body
+) {
+  return {
+    statusCode: statusCode,
+    body,
+    headers,
+    multiValueHeaders,
+    isBase64Encoded,
+  };
 }
 
-function getId(item, sep = "|") {
-  if (!item) return undefined;
+const createDefaultResponse = _.partial(
+  createResponse,
+  DEFAULT_HEADER,
+  undefined,
+  undefined
+);
 
-  const { PK, SK } = item;
-  return `${PK}${sep}${SK}`;
-}
-
-
-exports.parseQueryParam = parseQueryParam;
-exports.parseDynamodbKey = parseDynamodbKey;
-exports.getId = getId;
+module.exports = {
+  parseQueryParam,
+  createResponse,
+  createDefaultResponse,
+};
