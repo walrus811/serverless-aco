@@ -138,3 +138,4 @@ template.yaml
 provision/dynamodb-local/docker
 
 .DS_Store
+layers/coreLayer/nodejs/nodejs
