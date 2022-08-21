@@ -7,6 +7,8 @@ const { DEFAULT_HEADER } = require("./contants");
  * @property {string | undefined} lastId
  * @property {boolean} ascend
  * @property {boolean} full
+ * @typedef {Object.<string, boolean | number | string>} ApiGatewayHeaderKeyValuePair
+ * @typedef {Object.<string, Array<boolean | number | string>>} ApiGatewayHeaderKeyValuesPair
  */
 
 /**
@@ -34,8 +36,8 @@ function parseQueryParam(event) {
 
 /**
  *
- * @param {Object.<string, boolean | number | string> | undefined} headers
- * @param {Object.<string, Array<boolean | number | string>> | undefined} multiValueHeaders
+ * @param {ApiGatewayHeaderKeyValuePair | undefined} headers
+ * @param {ApiGatewayHeaderKeyValuesPair | undefined} multiValueHeaders
  * @param {boolean | undefined} isBase64Encoded
  * @param {number} statusCode
  * @param {string} body
