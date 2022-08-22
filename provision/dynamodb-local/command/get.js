@@ -9,9 +9,9 @@ const { result: tableSchema } = require("../input/table.json");
       PK: "Student",
       SK: `S#${student.school}#${student.grade}`,
     };
-    const data = await ddbDocClient.query( {
+    const data = await ddbDocClient.query({
       TableName: tableSchema.TableName,
-      KeyConditionExpression: "#pk = :pk and begins_with(#sk, :sk)",
+      KeyConditionExpression: "#pk = :pk and #sk = :sk",
       ExpressionAttributeNames: {
         "#pk": "PK",
         "#sk": "SK",
