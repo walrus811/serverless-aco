@@ -26,15 +26,24 @@ async function get(
 ) {
   const queryResult = await ddbDocClient.query({
     TableName: tableName,
-    KeyConditionExpression: `#pk = :pk`,
-    ExpressionAttributeNames: {
-      "#pk": "PK",
-    },
-    ExpressionAttributeValues: {
-      ":pk": partition,
-    },
+    KeyConditionExpression: `#pk = :pk${lastId ? ` and #sk > :sk` : ""}`,
+    ExpressionAttributeNames: lastId
+      ? {
+          "#pk": "PK",
+          "#sk": "SK",
+        }
+      : {
+          "#pk": "PK",
+        },
+    ExpressionAttributeValues: lastId
+      ? {
+          ":pk": partition,
+          ":sk": lastId,
+        }
+      : {
+          ":pk": partition,
+        },
     Limit: limit,
-    ExclusiveStartKey: lastId ? { SK: lastId, PK: partition } : undefined,
     ScanIndexForward: ascend,
     ProjectionExpression: full
       ? undefined
