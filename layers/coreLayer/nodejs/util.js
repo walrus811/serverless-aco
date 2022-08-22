@@ -66,8 +66,36 @@ const createDefaultResponse = _.partial(
   undefined
 );
 
+const createDefaultClientErrorResponse = _.partial(
+  createResponse,
+  DEFAULT_HEADER,
+  undefined,
+  undefined,
+  400
+);
+
+const createDefaultNotFoundResponse = _.partial(
+  createResponse,
+  DEFAULT_HEADER,
+  undefined,
+  undefined,
+  404
+);
+
+
+const createDefaultInternalErrorResponse = _.partial(
+  createResponse,
+  DEFAULT_HEADER,
+  undefined,
+  undefined,
+  500
+);
+
 module.exports = {
   parseQueryParam,
   createResponse,
   createDefaultResponse,
+  createDefaultClientErrorResponse,
+  createDefaultNotFoundResponse,
+  createDefaultInternalErrorResponse
 };
