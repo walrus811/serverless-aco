@@ -1,14 +1,10 @@
 const { ddbDocClient } = require("./dynamodbClient");
 
 /**
- * @typedef {import("./contants").PK_SCHOOL} PK_SCHOOL
- */
-
-/**
  * @description query to DynamoDB
  * @param  {string} tableName
  * @param  {string} partialExp
- * @param  {PK_SCHOOL} partition
+ * @param  {import("./typedefs").PK_SCHOOL} partition
  * @param  {number |undefined} limit
  * @param  {string | undefined} lastId
  * @param  {boolean} ascend
@@ -26,7 +22,9 @@ async function get(
 ) {
   const queryResult = await ddbDocClient.query({
     TableName: tableName,
-    KeyConditionExpression: `#pk = :pk${lastId ? ` and #sk > :sk` : ""}`,
+    KeyConditionExpression: `#pk = :pk${
+      lastId ? ` and #sk ${ascend ? ">" : "<"} :sk` : ""
+    }`,
     ExpressionAttributeNames: lastId
       ? {
           "#pk": "PK",
@@ -55,6 +53,31 @@ async function get(
   return queryResult;
 }
 
+/**
+ * @description query by id to DynamoDB
+ * @param  {string} tableName
+ * @param  {import("./typedefs").PK_SCHOOL} partition
+ * @param  {string} id
+ * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
+ */
+async function getById(tableName, partition, id) {
+  const queryResult = await ddbDocClient.query({
+    TableName: tableName,
+    KeyConditionExpression: `#pk = :pk and #sk = :sk`,
+    ExpressionAttributeNames: {
+      "#pk": "PK",
+      "#sk": "SK",
+    },
+    ExpressionAttributeValues: {
+      ":pk": partition,
+      ":sk": id,
+    },
+  });
+
+  return queryResult;
+}
+
 module.exports = {
   get,
+  getById,
 };

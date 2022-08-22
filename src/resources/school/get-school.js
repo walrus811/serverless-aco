@@ -1,6 +1,10 @@
 const _ = require("lodash");
-const { parseQueryParam, createDefaultResponse } = require("/opt/nodejs/util");
-const { getSchool } = require("/opt/nodejs/school");
+const {
+  parseQueryParam,
+  createDefaultResponse,
+  createDefaultInternalErrorResponse,
+} = require("/opt/nodejs/util");
+const { getSchool, getSchoolItem } = require("/opt/nodejs/school");
 
 /**
  * @param  {import("aws-lambda").APIGatewayProxyEvent} event
@@ -9,8 +13,7 @@ const { getSchool } = require("/opt/nodejs/school");
 exports.handler = async (event) => {
   const queryParam = parseQueryParam(event);
 
-  try
-  {
+  try {
     const result = await getSchool(
       queryParam.limit,
       queryParam.lastId,
@@ -19,12 +22,7 @@ exports.handler = async (event) => {
     );
 
     const responseBody = JSON.stringify({
-      result: _.map(result.Items, function (item) {
-        return {
-          id: item.SK,
-          name: item.SK,
-        };
-      }),
+      result: _.map(result.Items, getSchoolItem),
       lastId: result.LastEvaluatedKey ? result.LastEvaluatedKey.SK : null,
     });
 
@@ -40,11 +38,7 @@ exports.handler = async (event) => {
     return response;
   } catch (error) {
     console.error(`error occurred, body: ${JSON.stringify(error)}`);
-
-    const response = createDefaultResponse(
-      error.$metadata.httpStatusCode ?? 500,
-      ""
-    );
+    const response = createDefaultInternalErrorResponse("");
     return response;
   }
 };
