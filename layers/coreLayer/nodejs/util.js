@@ -82,6 +82,13 @@ const createDefaultNotFoundResponse = _.partial(
   404
 );
 
+const createDefaultConflictResponse = _.partial(
+  createResponse,
+  DEFAULT_HEADER,
+  undefined,
+  undefined,
+  409
+);
 
 const createDefaultInternalErrorResponse = _.partial(
   createResponse,
@@ -97,5 +104,6 @@ module.exports = {
   createDefaultResponse,
   createDefaultClientErrorResponse,
   createDefaultNotFoundResponse,
-  createDefaultInternalErrorResponse
+  createDefaultConflictResponse,
+  createDefaultInternalErrorResponse,
 };
