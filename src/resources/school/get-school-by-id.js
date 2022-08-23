@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const {
   createDefaultResponse,
-  createDefaultClientErrorResponse,
+  createDefaultBadRequestResponse,
   createDefaultNotFoundResponse,
   createDefaultInternalErrorResponse,
 } = require("/opt/nodejs/util");
@@ -15,7 +15,7 @@ exports.handler = async (event) => {
   const id = event.pathParameters?.id;
 
   if (!id)
-    return createDefaultClientErrorResponse("There's no id in the request.");
+    return createDefaultBadRequestResponse("There's no id in the request.");
 
   try {
     const result = await getSchoolById(id);
