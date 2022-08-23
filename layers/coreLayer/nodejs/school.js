@@ -8,17 +8,17 @@ const getSchoolById = _.partial(getById, TABLE_NAME, PK_SCHOOL);
 /**
  * @description convert dynamodb item to School
  * @param {Record<string, any>} item
- * @return {import("./typedefs").School}
+ * @return {import("./typedefs").SchoolWithId}
  */
 function getSchoolItem(item) {
-    return {
-        id: item.SK,
-        name: item.SK,
-    };
+  return {
+    id: item.SK,
+    name: item.SK,
+  };
 }
 
 module.exports = {
-    getSchool,
-    getSchoolById,
-    getSchoolItem,
+  getSchool,
+  getSchoolById,
+  getSchoolItem,
 };
