@@ -9,6 +9,12 @@
 /**
  * @typedef School
  * @type {object}
+ * @property {string} name
+ */
+
+/**
+ * @typedef SchoolWithId
+ * @type {object}
  * @property {string} id
  * @property {string} name
  */
