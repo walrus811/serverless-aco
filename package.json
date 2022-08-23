@@ -15,6 +15,7 @@
   "scripts": {
     "i:template": "npx cpy template_default.yaml . --rename=template.yaml",
     "i:layer": "ln -sf ./layers/coreLayer/nodejs /opt/nodejs",
+    "x:api": "sam local start-api",
     "t:all": "npx mocha './test/**/*.test.js'",
     "t:grep": "npx mocha './test/**/*.test.js' -g"
   },
