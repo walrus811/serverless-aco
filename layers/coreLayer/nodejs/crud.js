@@ -1,4 +1,11 @@
 const { ddbDocClient } = require("./dynamodbClient");
+const _ = require("lodash");
+
+/**
+ * @callback updateSortKeyValueCallback
+ * @param {string} value
+ * @returns {string}
+ */
 
 /**
  * @description query to DynamoDB
@@ -77,7 +84,60 @@ async function getById(tableName, partition, id) {
   return queryResult;
 }
 
+/**
+ * @description create new item to DynamoDB
+ * @param  {string} tableName
+ * @param  {import("./typedefs").PK_SCHOOL} partition
+ * @param {string} sortKeyField
+ * @param {updateSortKeyValueCallback} updateSortKeyValue
+ * @param  {import("./typedefs").School} data
+ * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
+ */
+async function post(
+  tableName,
+  partition,
+  sortKeyField,
+  updateSortKeyValue,
+  data
+) {
+  const postData = createPutData(
+    partition,
+    sortKeyField,
+    updateSortKeyValue,
+    data
+  );
+  const queryResult = await ddbDocClient.put({
+    TableName: tableName,
+    Item: postData,
+    ConditionExpression:
+      "attribute_not_exists(PK) and attribute_not_exists(SK)",
+  });
+
+  return queryResult;
+}
+
+/**
+ * @description create data to put to dynamodb
+ * @param  {import("./typedefs").PK_SCHOOL} partition
+ * @param  {string} sortKeyField
+ * @param {updateSortKeyValueCallback} updateSortKeyValue
+ * @param  {import("./typedefs").School} data
+ * @returns {object}
+ */
+function createPutData(partition, sortKeyField, updateSortKeyValue, data) {
+  const newObject = _.flow([
+    _.partialRight(_.set, "PK", partition),
+    _.partialRight(_.mapKeys, function (_, key) {
+      return key === sortKeyField ? "SK" : key;
+    }),
+    _.partialRight(_.update, "SK", updateSortKeyValue),
+    _.partialRight(_.omit, sortKeyField),
+  ])(data);
+  return newObject;
+}
+
 module.exports = {
   get,
   getById,
+  post,
 };
