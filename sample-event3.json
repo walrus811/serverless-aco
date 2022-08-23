@@ -1,0 +1,63 @@
+{
+  "body": { "name": "라라라고" },
+  "headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "28",
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:3000",
+    "Postman-Token": "316135e3-93ae-4b25-a826-5577d023793d",
+    "User-Agent": "PostmanRuntime/7.29.2",
+    "X-Forwarded-Port": "3000",
+    "X-Forwarded-Proto": "http"
+  },
+  "httpMethod": "POST",
+  "isBase64Encoded": false,
+  "multiValueHeaders": {
+    "Accept": ["application/json"],
+    "Accept-Encoding": ["gzip, deflate, br"],
+    "Connection": ["keep-alive"],
+    "Content-Length": ["28"],
+    "Content-Type": ["application/json"],
+    "Host": ["127.0.0.1:3000"],
+    "Postman-Token": ["316135e3-93ae-4b25-a826-5577d023793d"],
+    "User-Agent": ["PostmanRuntime/7.29.2"],
+    "X-Forwarded-Port": ["3000"],
+    "X-Forwarded-Proto": ["http"]
+  },
+  "multiValueQueryStringParameters": null,
+  "path": "/school",
+  "pathParameters": null,
+  "queryStringParameters": null,
+  "requestContext": {
+    "accountId": "123456789012",
+    "apiId": "1234567890",
+    "domainName": "127.0.0.1:3000",
+    "extendedRequestId": null,
+    "httpMethod": "POST",
+    "identity": {
+      "accountId": null,
+      "apiKey": null,
+      "caller": null,
+      "cognitoAuthenticationProvider": null,
+      "cognitoAuthenticationType": null,
+      "cognitoIdentityPoolId": null,
+      "sourceIp": "127.0.0.1",
+      "user": null,
+      "userAgent": "Custom User Agent String",
+      "userArn": null
+    },
+    "path": "/school",
+    "protocol": "HTTP/1.1",
+    "requestId": "cea302a3-5ca1-4afa-b117-b8cd7b692724",
+    "requestTime": "23/Aug/2022:14:43:45 +0000",
+    "requestTimeEpoch": 1661265825,
+    "resourceId": "123456",
+    "resourcePath": "/school",
+    "stage": "prod"
+  },
+  "resource": "/school",
+  "stageVariables": null,
+  "version": "1.0"
+}
