@@ -17,21 +17,21 @@ const { DEFAULT_HEADER } = require("./contants");
  * @returns {QueryParam}
  */
 function parseQueryParam(event) {
-  if (!event.queryStringParameters)
-    return {
-      limit: undefined,
-      lastId: undefined,
-      ascend: false,
-      full: false,
-    };
+    if (!event.queryStringParameters)
+        return {
+            limit: undefined,
+            lastId: undefined,
+            ascend: false,
+            full: false,
+        };
 
-  const limitValue = _.parseInt(event.queryStringParameters.limit ?? "");
-  return {
-    limit: limitValue > 0 ? limitValue : undefined,
-    lastId: decodeURIComponent(event.queryStringParameters.lastId ?? ""),
-    ascend: event.queryStringParameters?.ascend === "true",
-    full: event.queryStringParameters.full === "true",
-  };
+    const limitValue = _.parseInt(event.queryStringParameters.limit ?? "");
+    return {
+        limit: limitValue > 0 ? limitValue : undefined,
+        lastId: decodeURIComponent(event.queryStringParameters.lastId ?? ""),
+        ascend: event.queryStringParameters?.ascend === "true",
+        full: event.queryStringParameters.full === "true",
+    };
 }
 
 /**
@@ -44,66 +44,84 @@ function parseQueryParam(event) {
  * @returns {import("aws-lambda").APIGatewayProxyResult}
  */
 function createResponse(
-  headers,
-  multiValueHeaders,
-  isBase64Encoded,
-  statusCode,
-  body
-) {
-  return {
-    statusCode: statusCode,
-    body,
     headers,
     multiValueHeaders,
     isBase64Encoded,
-  };
+    statusCode,
+    body
+) {
+    return {
+        statusCode: statusCode,
+        body,
+        headers,
+        multiValueHeaders,
+        isBase64Encoded,
+    };
 }
 
 const createDefaultResponse = _.partial(
-  createResponse,
-  DEFAULT_HEADER,
-  undefined,
-  undefined
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined
 );
 
-const createDefaultClientErrorResponse = _.partial(
-  createResponse,
-  DEFAULT_HEADER,
-  undefined,
-  undefined,
-  400
+const createDefaultCreatedResponse = _.partial(
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    201
+);
+
+const createDefaultNoContentsResponse = _.partial(
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    204
+);
+
+const createDefaultBadRequestResponse = _.partial(
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    400
 );
 
 const createDefaultNotFoundResponse = _.partial(
-  createResponse,
-  DEFAULT_HEADER,
-  undefined,
-  undefined,
-  404
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    404
 );
 
 const createDefaultConflictResponse = _.partial(
-  createResponse,
-  DEFAULT_HEADER,
-  undefined,
-  undefined,
-  409
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    409
 );
 
 const createDefaultInternalErrorResponse = _.partial(
-  createResponse,
-  DEFAULT_HEADER,
-  undefined,
-  undefined,
-  500
+    createResponse,
+    DEFAULT_HEADER,
+    undefined,
+    undefined,
+    500
 );
 
 module.exports = {
-  parseQueryParam,
-  createResponse,
-  createDefaultResponse,
-  createDefaultClientErrorResponse,
-  createDefaultNotFoundResponse,
-  createDefaultConflictResponse,
-  createDefaultInternalErrorResponse,
+    parseQueryParam,
+    createResponse,
+    createDefaultResponse,
+    createDefaultCreatedResponse,
+    createDefaultNoContentsResponse,
+    createDefaultBadRequestResponse,
+    createDefaultNotFoundResponse,
+    createDefaultConflictResponse,
+    createDefaultInternalErrorResponse,
 };
