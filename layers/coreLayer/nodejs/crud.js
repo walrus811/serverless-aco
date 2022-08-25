@@ -125,7 +125,8 @@ async function post(
  * @returns {object}
  */
 function createPutData(partition, sortKeyField, updateSortKeyValue, data) {
-  const newObject = _.flow([
+  const newObject = _.flow( [
+    _.cloneDeep,
     _.partialRight(_.set, "PK", partition),
     _.partialRight(_.mapKeys, function (_, key) {
       return key === sortKeyField ? "SK" : key;
