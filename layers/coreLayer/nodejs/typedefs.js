@@ -7,6 +7,13 @@
  */
 
 /**
+ * @typedef DDBItem
+ * @type {object}
+ * @property {string} PK
+ * @property {string} SK
+ */
+
+/**
  * @typedef School
  * @type {object}
  * @property {string} name

@@ -5,7 +5,7 @@ const {
   createDefaultConflictResponse,
   createDefaultCreatedResponse,
 } = require("/opt/nodejs/util");
-const { postSchool } = require("/opt/nodejs/school");
+const { postSchool, createSchoolPostItem } = require("/opt/nodejs/school");
 const { DEFAULT_HEADER } = require("/opt/nodejs/contants");
 
 /**
@@ -20,7 +20,8 @@ exports.handler = async (event) => {
     return createDefaultBadRequestResponse("no name in the request.");
 
   try {
-    await postSchool({ name: body.name });
+    const item = createSchoolPostItem({ name: body.name });
+    await postSchool(item);
 
     const response = createDefaultCreatedResponse("");
     if (!response.headers) response.headers = DEFAULT_HEADER;
@@ -41,11 +42,7 @@ exports.handler = async (event) => {
       );
       const response = createDefaultConflictResponse("");
       if (!response.headers) response.headers = DEFAULT_HEADER;
-      _.set(
-        response.headers,
-        "Content-Location",
-        `${event.path}/${body.name}`
-      );
+      _.set(response.headers, "Content-Location", `${event.path}/${body.name}`);
       return response;
     } else {
       console.error(`error occurred, body: ${JSON.stringify(error)}`);

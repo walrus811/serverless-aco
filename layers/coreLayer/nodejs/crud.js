@@ -1,5 +1,4 @@
 const { ddbDocClient } = require("./dynamodbClient");
-const _ = require("lodash");
 
 /**
  * @callback updateSortKeyValueCallback
@@ -87,58 +86,36 @@ async function getById(tableName, partition, id) {
 /**
  * @description create new item to DynamoDB
  * @param  {string} tableName
- * @param  {import("./typedefs").PK_SCHOOL} partition
- * @param {string} sortKeyField
- * @param {updateSortKeyValueCallback} updateSortKeyValue
- * @param  {import("./typedefs").School} data
+ * @param  {import("./typedefs").DDBItem} data
  * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
  */
-async function post(
-  tableName,
-  partition,
-  sortKeyField,
-  updateSortKeyValue,
-  data
-) {
-  const postData = createPutData(
-    partition,
-    sortKeyField,
-    updateSortKeyValue,
-    data
-  );
+async function post(tableName, data) {
   const queryResult = await ddbDocClient.put({
     TableName: tableName,
-    Item: postData,
+    Item: data,
     ConditionExpression:
       "attribute_not_exists(PK) and attribute_not_exists(SK)",
   });
-
   return queryResult;
 }
 
 /**
- * @description create data to put to dynamodb
- * @param  {import("./typedefs").PK_SCHOOL} partition
- * @param  {string} sortKeyField
- * @param {updateSortKeyValueCallback} updateSortKeyValue
- * @param  {import("./typedefs").School} data
- * @returns {object}
+ * @description create new item to DynamoDB
+ * @param  {string} tableName
+ * @param  {import("./typedefs").DDBItem} data
+ * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
  */
-function createPutData(partition, sortKeyField, updateSortKeyValue, data) {
-  const newObject = _.flow( [
-    _.cloneDeep,
-    _.partialRight(_.set, "PK", partition),
-    _.partialRight(_.mapKeys, function (_, key) {
-      return key === sortKeyField ? "SK" : key;
-    }),
-    _.partialRight(_.update, "SK", updateSortKeyValue),
-    _.partialRight(_.omit, sortKeyField),
-  ])(data);
-  return newObject;
+async function put(tableName, data) {
+  const queryResult = await ddbDocClient.put({
+    TableName: tableName,
+    Item: data,
+  });
+  return queryResult;
 }
 
 module.exports = {
   get,
   getById,
   post,
+  put,
 };
