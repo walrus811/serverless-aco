@@ -463,7 +463,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: "#/components/schemas/Student"
+            $ref: "#/components/schemas/School"
   responses:
     DefaultErrorResponse:
       description: default response
