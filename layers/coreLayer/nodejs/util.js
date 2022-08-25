@@ -40,7 +40,7 @@ function parseQueryParam(event) {
  * @param {ApiGatewayHeaderKeyValuesPair | undefined} multiValueHeaders
  * @param {boolean | undefined} isBase64Encoded
  * @param {number} statusCode
- * @param {string} body
+ * @param {Record<string,any> | undefined} body
  * @returns {import("aws-lambda").APIGatewayProxyResult}
  */
 function createResponse(
@@ -52,11 +52,31 @@ function createResponse(
 ) {
     return {
         statusCode: statusCode,
-        body,
+        body: JSON.stringify(body),
         headers,
         multiValueHeaders,
         isBase64Encoded,
     };
+}
+
+/**
+ *
+ * @param {number} statusCode
+ * @param {string | undefined} message
+ * @returns {import("aws-lambda").APIGatewayProxyResult}
+ */
+function createDefaltErrorResponse(statusCode, message) {
+    return createResponse(
+        DEFAULT_HEADER,
+        undefined,
+        undefined,
+        statusCode,
+        message
+            ? {
+                  message,
+              }
+            : undefined
+    );
 }
 
 const createDefaultResponse = _.partial(
@@ -83,34 +103,16 @@ const createDefaultNoContentsResponse = _.partial(
 );
 
 const createDefaultBadRequestResponse = _.partial(
-    createResponse,
-    DEFAULT_HEADER,
-    undefined,
-    undefined,
+    createDefaltErrorResponse,
     400
 );
 
-const createDefaultNotFoundResponse = _.partial(
-    createResponse,
-    DEFAULT_HEADER,
-    undefined,
-    undefined,
-    404
-);
+const createDefaultNotFoundResponse = _.partial(createDefaltErrorResponse, 404);
 
-const createDefaultConflictResponse = _.partial(
-    createResponse,
-    DEFAULT_HEADER,
-    undefined,
-    undefined,
-    409
-);
+const createDefaultConflictResponse = _.partial(createDefaltErrorResponse, 409);
 
 const createDefaultInternalErrorResponse = _.partial(
-    createResponse,
-    DEFAULT_HEADER,
-    undefined,
-    undefined,
+    createDefaltErrorResponse,
     500
 );
 

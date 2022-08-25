@@ -5,7 +5,11 @@ const {
   createDefaultConflictResponse,
   createDefaultCreatedResponse,
 } = require("/opt/nodejs/util");
-const { postSchool, createSchoolPostItem } = require("/opt/nodejs/school");
+const {
+  postSchool,
+  createPostDDBItem,
+  getSortKey,
+} = require("/opt/nodejs/school");
 const { DEFAULT_HEADER } = require("/opt/nodejs/contants");
 
 /**
@@ -20,12 +24,16 @@ exports.handler = async (event) => {
     return createDefaultBadRequestResponse("no name in the request.");
 
   try {
-    const item = createSchoolPostItem({ name: body.name });
-    await postSchool(item);
+    const ddbItem = createPostDDBItem({ name: body.name });
+    await postSchool(ddbItem);
 
-    const response = createDefaultCreatedResponse("");
+    const response = createDefaultCreatedResponse(undefined);
     if (!response.headers) response.headers = DEFAULT_HEADER;
-    _.set(response.headers, "Content-Location", `${event.path}/${body.name}`);
+    _.set(
+      response.headers,
+      "Content-Location",
+      `${event.path}/${getSortKey(ddbItem.SK)}`
+    );
 
     console.info(
       `response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`
@@ -40,13 +48,13 @@ exports.handler = async (event) => {
       console.info(
         `resource conflict occurred, body: ${JSON.stringify(error)}`
       );
-      const response = createDefaultConflictResponse("");
+      const response = createDefaultConflictResponse(undefined);
       if (!response.headers) response.headers = DEFAULT_HEADER;
       _.set(response.headers, "Content-Location", `${event.path}/${body.name}`);
       return response;
     } else {
       console.error(`error occurred, body: ${JSON.stringify(error)}`);
-      return createDefaultInternalErrorResponse("");
+      return createDefaultInternalErrorResponse(undefined);
     }
   }
 };

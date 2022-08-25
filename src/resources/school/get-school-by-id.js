@@ -24,9 +24,9 @@ exports.handler = async (event) => {
     if (!item)
       return createDefaultNotFoundResponse(`There's no item of ${id}.`);
 
-    const responseBody = JSON.stringify({
+    const responseBody = {
       result: getSchoolItem(item),
-    });
+    };
 
     const response = createDefaultResponse(
       result.$metadata.httpStatusCode ?? 500,
@@ -40,7 +40,7 @@ exports.handler = async (event) => {
     return response;
   } catch (error) {
     console.error(`error occurred, body: ${JSON.stringify(error)}`);
-    const response = createDefaultInternalErrorResponse("");
+    const response = createDefaultInternalErrorResponse(undefined);
     return response;
   }
 };

@@ -86,13 +86,13 @@ async function getById(tableName, partition, id) {
 /**
  * @description create new item to DynamoDB
  * @param  {string} tableName
- * @param  {import("./typedefs").DDBItem} data
+ * @param  {import("./typedefs").DDBItem} item
  * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
  */
-async function post(tableName, data) {
+async function post(tableName, item) {
   const queryResult = await ddbDocClient.put({
     TableName: tableName,
-    Item: data,
+    Item: item,
     ConditionExpression:
       "attribute_not_exists(PK) and attribute_not_exists(SK)",
   });
@@ -102,13 +102,27 @@ async function post(tableName, data) {
 /**
  * @description create new item to DynamoDB
  * @param  {string} tableName
- * @param  {import("./typedefs").DDBItem} data
+ * @param  {import("./typedefs").DDBItem} item
  * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
  */
-async function put(tableName, data) {
+async function put(tableName, item) {
   const queryResult = await ddbDocClient.put({
     TableName: tableName,
-    Item: data,
+    Item: item,
+  });
+  return queryResult;
+}
+
+/**
+ * @description create new item to DynamoDB
+ * @param  {string} tableName
+ * @param  {import("./typedefs").DDBItem} item
+ * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
+ */
+async function deleteItem(tableName, item) {
+  const queryResult = await ddbDocClient.delete({
+    TableName: tableName,
+    Key: { PK: item.PK, SK: item.SK },
   });
   return queryResult;
 }
@@ -118,4 +132,5 @@ module.exports = {
   getById,
   post,
   put,
+  deleteItem,
 };

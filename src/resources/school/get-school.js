@@ -21,10 +21,10 @@ exports.handler = async (event) => {
       queryParam.full
     );
 
-    const responseBody = JSON.stringify({
+    const responseBody = {
       result: _.map(result.Items, getSchoolItem),
       lastId: result.LastEvaluatedKey ? result.LastEvaluatedKey.SK : null,
-    });
+    };
 
     const response = createDefaultResponse(
       result.$metadata.httpStatusCode ?? 500,
@@ -38,7 +38,7 @@ exports.handler = async (event) => {
     return response;
   } catch (error) {
     console.error(`error occurred, body: ${JSON.stringify(error)}`);
-    const response = createDefaultInternalErrorResponse("");
+    const response = createDefaultInternalErrorResponse(undefined);
     return response;
   }
 };
