@@ -6,7 +6,6 @@ const { result: tableSchema } = require("../input/table.json");
     const item = {
       PK: "School",
       SK: `라라라고`,
-      test: "abc",
     };
     const data = await ddbDocClient.delete({
       TableName: tableSchema.TableName,
