@@ -28,6 +28,19 @@
  */
 
 /**
+ * @typedef SchoolOptional
+ * @type {object}
+ * @property {string?} name
+ *
+ * @typedef StudentOptional
+ * @type {object}
+ * @property {string?} name
+ * @property {string?} school
+ * @property {number?} grade
+ * @property {false?} retired
+ */
+
+/**
  * @typedef SchoolWithId
  * @type {object}
  * @property {string} id
