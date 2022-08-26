@@ -9,7 +9,7 @@ const { ddbDocClient } = require("./dynamodbClient");
 /**
  * @description query to DynamoDB
  * @param  {string} tableName
- * @param  {string} partialExp
+ * @param  {string} partialProjectExp
  * @param  {import("./typedefs").PK_SCHOOL} partition
  * @param  {number |undefined} limit
  * @param  {string | undefined} lastId
@@ -19,7 +19,7 @@ const { ddbDocClient } = require("./dynamodbClient");
  */
 async function get(
   tableName,
-  partialExp,
+  partialProjectExp,
   partition,
   limit,
   lastId,
@@ -51,8 +51,8 @@ async function get(
     ScanIndexForward: ascend,
     ProjectionExpression: full
       ? undefined
-      : partialExp.length > 0
-      ? partialExp
+      : partialProjectExp.length > 0
+      ? partialProjectExp
       : undefined,
   });
 

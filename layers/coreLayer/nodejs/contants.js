@@ -3,9 +3,10 @@ exports.TABLE_NAME = "Aco";
 
 //partition key for dynamodb
 exports.PK_SCHOOL = "School";
+exports.PK_STUDENT = "Student";
 
-//filter expression for dynamodb
-exports.PARTIAL_SCHOOL_EXP = "";
+//projction expression for dynamodb
+exports.PARTIAL_PROJECT_SCHOOL_EXP = "";
 
 //default values
 exports.DEFAULT_HEADER = {

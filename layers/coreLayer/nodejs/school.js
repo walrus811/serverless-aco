@@ -1,5 +1,9 @@
 const _ = require("lodash");
-const { TABLE_NAME, PARTIAL_SCHOOL_EXP, PK_SCHOOL } = require("./contants");
+const {
+  TABLE_NAME,
+  PARTIAL_PROJECT_SCHOOL_EXP: PARTIAL_SCHOOL_EXP,
+  PK_SCHOOL,
+} = require("./contants");
 const { get, getById, post, put, deleteItem } = require("./crud");
 
 const getSchool = _.partial(get, TABLE_NAME, PARTIAL_SCHOOL_EXP, PK_SCHOOL);
