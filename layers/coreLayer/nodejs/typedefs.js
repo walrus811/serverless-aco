@@ -4,6 +4,7 @@
 
 /**
  * @typedef {import("./contants").PK_SCHOOL} PK_SCHOOL
+ * @typedef {import("./contants").PK_STUDENT} PK_STUDENT
  */
 
 /**
@@ -17,6 +18,13 @@
  * @typedef School
  * @type {object}
  * @property {string} name
+ *
+ * @typedef Student
+ * @type {object}
+ * @property {string} name
+ * @property {string} school
+ * @property {number} grade
+ * @property {false} retired
  */
 
 /**
@@ -24,6 +32,14 @@
  * @type {object}
  * @property {string} id
  * @property {string} name
+ *
+ * @typedef StudentWithId
+ * @type {object}
+ * @property {string} id
+ * @property {string} name
+ * @property {string} school
+ * @property {number} grade
+ * @property {false} retired
  */
 
 exports.unused = {};
