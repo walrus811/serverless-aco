@@ -8,9 +8,9 @@ const { result: tableSchema } = require("../input/table.json");
       new Promise((resolve, reject) => {
         const item = {
           PK: "Student",
-          SK: `S#${student.school}#${student.grade}#${student.name}`,
+          SK: `S.${student.school}.${student.grade}.${student.name}`,
         };
-        item.StudentIndexKey = `${item.PK}#${item.SK}`;
+        item.StudentIndexKey = `${item.PK}.${item.SK}`;
         item.ItemIndexKey = item.SK;
 
         ddbDocClient
