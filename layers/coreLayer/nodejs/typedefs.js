@@ -24,7 +24,7 @@
  * @property {string} name
  * @property {string} school
  * @property {number} grade
- * @property {false} retired
+ * @property {boolean} retired
  */
 
 /**
@@ -37,7 +37,7 @@
  * @property {string?} name
  * @property {string?} school
  * @property {number?} grade
- * @property {false?} retired
+ * @property {boolean?} retired
  */
 
 /**
@@ -52,7 +52,7 @@
  * @property {string} name
  * @property {string} school
  * @property {number} grade
- * @property {false} retired
+ * @property {boolean} retired
  */
 
 exports.unused = {};
