@@ -10,7 +10,7 @@ const { ddbDocClient } = require("./dynamodbClient");
  * @description query to DynamoDB
  * @param  {string} tableName
  * @param  {string} partialProjectExp
- * @param  {import("./typedefs").PK_SCHOOL} partition
+ * @param  {import("./typedefs").PK_SCHOOL | import("./typedefs").PK_STUDENT} partition
  * @param  {number |undefined} limit
  * @param  {string | undefined} lastId
  * @param  {boolean} ascend
@@ -62,7 +62,7 @@ async function get(
 /**
  * @description query by id to DynamoDB
  * @param  {string} tableName
- * @param  {import("./typedefs").PK_SCHOOL} partition
+ * @param  {import("./typedefs").PK_SCHOOL | import("./typedefs").PK_STUDENT} partition
  * @param  {string} id
  * @returns {Promise<import("@aws-sdk/lib-dynamodb").QueryCommandOutput>}
  */
