@@ -32,7 +32,7 @@ exports.handler = async (event) => {
     );
 
     console.info(
-      `response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`
+      `response from: ${event.path} statusCode: ${response.statusCode} body(count): ${responseBody.result.length}`
     );
 
     return response;
