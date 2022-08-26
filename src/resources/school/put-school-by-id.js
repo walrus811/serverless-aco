@@ -37,14 +37,10 @@ exports.handler = async (event) => {
     if (!item)
       return createDefaultNotFoundResponse(`There's no item of ${id}.`);
 
-    let newSortKey = item.SK;
-    if (item.SK !== body.name) {
-      const deleteDDBItem = createDeleteDDBItem(item);
-      console.log(JSON.stringify(item));
-      await deleteSchool(deleteDDBItem);
-      if (body.name) newSortKey = getSortKey({ name: body.name });
-    }
+    const deleteDDBItem = createDeleteDDBItem(item);
+    await deleteSchool(deleteDDBItem);
 
+    const newSortKey = getSortKey({ name: body.name ? body.name : item.SK });
     const ddbItem = createPutDDBItem(item, newSortKey, { name: body.name });
     await putSchool(ddbItem);
 
