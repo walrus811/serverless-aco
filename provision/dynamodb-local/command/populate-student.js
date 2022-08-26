@@ -9,6 +9,7 @@ const { result: tableSchema } = require("../input/table.json");
         const item = {
           PK: "Student",
           SK: `S.${student.school}.${student.grade}.${student.name}`,
+          retired: false,
         };
         item.StudentIndexKey = `${item.PK}.${item.SK}`;
         item.ItemIndexKey = item.SK;
