@@ -40,8 +40,10 @@ exports.handler = async (event) => {
     const deleteDDBItem = createDeleteDDBItem(item);
     await deleteSchool(deleteDDBItem);
 
-    const newSortKey = getSortKey({ name: body.name ? body.name : item.SK });
-    const ddbItem = createPutDDBItem(item, newSortKey, { name: body.name });
+    const updateItem = { name: body.name ? body.name : item.SK };
+
+    const newSortKey = getSortKey(updateItem);
+    const ddbItem = createPutDDBItem(item, newSortKey, updateItem);
     await putSchool(ddbItem);
 
     const response = createDefaultNoContentsResponse(undefined);
