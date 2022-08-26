@@ -5,12 +5,8 @@ const {
   createDefaultConflictResponse,
   createDefaultCreatedResponse,
 } = require("/opt/nodejs/util");
-const {
-  postSchool,
-  createPostDDBItem,
-  getSortKey,
-} = require("/opt/nodejs/school");
-const { DEFAULT_HEADER } = require("/opt/nodejs/contants");
+const { postSchool, createPostDDBItem } = require("/opt/nodejs/school");
+const { DEFAULT_HEADER, PK_SCHOOL } = require("/opt/nodejs/contants");
 
 /**
  * @param  {import("aws-lambda").APIGatewayProxyEvent} event
@@ -24,16 +20,12 @@ exports.handler = async (event) => {
     return createDefaultBadRequestResponse("no name in the request.");
 
   try {
-    const ddbItem = createPostDDBItem({ name: body.name });
+    const ddbItem = createPostDDBItem(PK_SCHOOL, { name: body.name });
     await postSchool(ddbItem);
 
     const response = createDefaultCreatedResponse(undefined);
     if (!response.headers) response.headers = DEFAULT_HEADER;
-    _.set(
-      response.headers,
-      "Content-Location",
-      `${event.path}/${getSortKey(ddbItem.SK)}`
-    );
+    _.set(response.headers, "Content-Location", `${event.path}/${ddbItem.SK}`);
 
     console.info(
       `response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`

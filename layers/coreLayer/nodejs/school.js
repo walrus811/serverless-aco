@@ -26,15 +26,16 @@ function getSchoolItem(item) {
 
 /**
  * @description convert school data to create
+ * @param {import("./typedefs").PK_SCHOOL} pk
  * @param {import("./typedefs").School} data
  * @returns {import("./typedefs").DDBItem}
  */
-function createPostDDBItem(data) {
+function createPostDDBItem(pk, data) {
   return _.omit(
     {
       ...data,
-      PK: PK_SCHOOL,
-      SK: data.name,
+      PK: pk,
+      SK: getSortKey(data),
     },
     "name"
   );
@@ -43,15 +44,16 @@ function createPostDDBItem(data) {
 /**
  * @description convert school data to create
  * @param {Record<string,any>} data
- * @param {import("./typedefs").School} newData
+ * @param {string} newSortKey
+ * @param {import("./typedefs").SchoolOptional} newData
  * @returns {import("./typedefs").DDBItem}
  */
-function createPutDDBItem(data, newData) {
+function createPutDDBItem(data, newSortKey, newData) {
   return _.omit(
     {
       ...newData,
-      PK: PK_SCHOOL,
-      SK: newData.name,
+      PK: data.PK,
+      SK: newSortKey,
     },
     "name"
   );
@@ -67,11 +69,11 @@ function createDeleteDDBItem(data) {
 }
 
 /**
- * @param {string} name
+ * @param {import("./typedefs").School} data
  * @returns {string}
  */
-function getSortKey(name) {
-  return name;
+function getSortKey(data) {
+  return data.name;
 }
 
 module.exports = {

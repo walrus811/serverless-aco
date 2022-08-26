@@ -37,13 +37,15 @@ exports.handler = async (event) => {
     if (!item)
       return createDefaultNotFoundResponse(`There's no item of ${id}.`);
 
+    let newSortKey = item.SK;
     if (item.SK !== body.name) {
       const deleteDDBItem = createDeleteDDBItem(item);
       console.log(JSON.stringify(item));
       await deleteSchool(deleteDDBItem);
+      if (body.name) newSortKey = getSortKey({ name: body.name });
     }
 
-    const ddbItem = createPutDDBItem(item, { name: body.name });
+    const ddbItem = createPutDDBItem(item, newSortKey, { name: body.name });
     await putSchool(ddbItem);
 
     const response = createDefaultNoContentsResponse(undefined);
@@ -51,7 +53,7 @@ exports.handler = async (event) => {
     _.set(
       response.headers,
       "Content-Location",
-      `/${event.path.split("/")[1]}/${getSortKey(ddbItem.SK)}`
+      `/${event.path.split("/")[1]}/${ddbItem.SK}`
     );
     console.info(
       `response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`
